@@ -1,0 +1,96 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Free University of Bolzano/Bozen Faculty of Computer Science
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Title
+Dycapo: On the creation of an open-source Server 
+\end_layout
+
+\begin_layout Title
+and a Protocol for Dynamic Carpooling
+\end_layout
+
+\begin_layout Author
+Daniel Graziotin
+\end_layout
+
+\begin_layout Author
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Section
+State of the art
+\end_layout
+
+\begin_layout Section
+Dycapo System
+\end_layout
+
+\begin_layout Subsection
+Protocol
+\end_layout
+
+\begin_layout Subsection
+Server
+\end_layout
+
+\begin_layout Section
+Conclusions
+\end_layout
+
+\end_body
+\end_document
