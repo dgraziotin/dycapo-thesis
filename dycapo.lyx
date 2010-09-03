@@ -41,28 +41,269 @@
 
 \begin_body
 
-\begin_layout Title
-Free University of Bolzano/Bozen Faculty of Computer Science
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\align center
 
+\size largest
+Free University of Bolzano/Bozen 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size largest
+Faculty of Computer Science
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename img/Unibz_Logo.svg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Thesis
 \end_layout
 
 \begin_layout Title
-Dycapo: On the creation of an open-source Server 
+Dycapo: On the creation of an open-source Server and a Protocol for Dynamic
+ Carpooling
 \end_layout
 
-\begin_layout Title
-and a Protocol for Dynamic Carpooling
-\end_layout
-
-\begin_layout Author
+\begin_layout Standard
+\align center
 Daniel Graziotin
 \end_layout
 
-\begin_layout Author
+\begin_layout Standard
+\align center
+Submitted in partial fulfillment of the requirements for the degree of Bachelor
+ in Applied Computer Science at the Free University of Bolzano/Bozen
+\end_layout
+
+\begin_layout Standard
+\align center
+Thesis advisor: Dr.
+ Paolo Massa
+\end_layout
+
+\begin_layout Standard
+\align center
+October 8, 2010
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Abstract
+\end_layout
+
+\begin_layout Standard
+Carpooling occurs when a driver share his/her private car with one or more
+ passengers.
+ The benefits of carpooling, also called ridesharing, are environmental,
+ economical and social.
+ Dynamic Carpooling is a specific type of Carpooling which allows drivers
+ and passengers to find suitable lifts close to their desired departure
+ time and directly on streets.
+ This dissertation describes Dycapo, an open-source system to provide Dynamic
+ Carpooling services.
+ After a review of the state of the art, the two main "components" are described
+, namely the protocol and the server architecture.
+ Dycapo Protocol is an open REST protocol for sharing trip information among
+ dynamic transit services, taking inspiration from OpenTrip, a previously
+ proposed protocol.
+ Dycapo Server is a prototype providing a Web Service for Dynamic Carpooling
+ functionalities, implementing Dycapo Protocol.
+ Our aim with the release of an open protocol and open source code is to
+ provide a missing standard and platform that providers of Dynamic Carpooling
+ services can adopt and extend.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Riassunto
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Kurzfassung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{arabic}
+\end_layout
+
 \end_inset
 
 
@@ -72,8 +313,52 @@ Daniel Graziotin
 Introduction
 \end_layout
 
+\begin_layout Subsection
+General Information 
+\end_layout
+
+\begin_layout Standard
+Private car travelling is an efficient and wasteful way of transportation.
+ Most cars are occupied by just one or two people.
+ Average car occupancy in the U.K.
+ is reported to be 1.59 persons/car, in Germany only 1.05
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-0"
+
+\end_inset
+
+.
+ Such an inefficient transportation system causes problems such as a waste
+ of resources, in terms of gasoline and time.
+ It causes pollutes in the air.
+ It stresses the parking.
+ One solution is carpooling, i.e.
+ the share of a private vehicle between one or more passenger.
+ 
+\end_layout
+
+\begin_layout Subsection
+Dynamic Carpooling
+\end_layout
+
+\begin_layout Standard
+ 
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-State of the art
+State of the art 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -88,8 +373,107 @@ Protocol
 Server
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Conclusions
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\start_of_appendix
+Appendix: Questionnaire
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "1"
+key "key-0"
+
+\end_inset
+
+Stephan Hartwig at al, 
+\begin_inset Quotes eld
+\end_inset
+
+Empty Seats Traveling
+\begin_inset Quotes erd
+\end_inset
+
+, Nokia Research Center, February 14
+\begin_inset Formula $^{\text{th}}$
+\end_inset
+
+2007
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
