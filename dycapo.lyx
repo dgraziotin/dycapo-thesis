@@ -72,6 +72,7 @@ Faculty of Computer Science
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename img/Unibz_Logo.svg
 
@@ -334,7 +335,7 @@ key "key-0"
  It causes pollutes in the air.
  It stresses the parking.
  One solution is carpooling, i.e.
- the share of a private vehicle between one or more passenger.
+ the share of a private vehicle between one or more passengers.
  
 \end_layout
 
@@ -343,6 +344,29 @@ Dynamic Carpooling
 \end_layout
 
 \begin_layout Standard
+Dyamic Carpooling (also known as Dynamic Ridesharing, Instant Ridesharing
+ and Agile Ridesharing) is a new implementation of Carpooling service which
+ enables the formation of carpools on short notice.
+ Dan Kirshner, one of the founders of this new concept, defines it as follows:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+A system that facilitates the ability of drivers and passengers to make
+ one-time ride matches close to their departure time, with sufficient convenienc
+e and flexibility to be used on a daily basis.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-1"
+
+\end_inset
+
  
 \begin_inset Newpage pagebreak
 \end_inset
@@ -352,6 +376,196 @@ Dynamic Carpooling
 
 \begin_layout Section
 State of the art 
+\end_layout
+
+\begin_layout Standard
+During the research phase eleven papers were analyzed to obtain the state
+ of the art.
+ The most recent one is also an analysis of the current trends of Dynamic
+ Ridesharing, but unfortunately it does not include all of the papers taken
+ into consideration.
+ In this section a brief summary of the outcomes of each paper is presented.
+\end_layout
+
+\begin_layout Subsection
+Sociotechnical support for Ride Sharing
+\end_layout
+
+\begin_layout Standard
+(No Delhi) List barriers and changes to be done to reduce them Scenario
+ provided Current status → High Occupancy Vehicles (HOV) lane on streets
+ of San Francisco and Oakland.
+ No fees on bridges for HOVs → conventions agreed between drivers and riders
+ (i.e.
+ pickup points near public transportation stops) Security → give priority
+ to female riders, to not leave them alone waiting for a ride → riders are
+ expected not to initiate any conversation → when private space broken,
+ happy stories → no stories about rape, kidnapping or murder → most common
+ problem: bad driving Research Agenda needed: → location awareness devices.
+ Instant ridesharing limited to fixed pickups and dropoff locations → user
+ interface design: simple interfaces for riders and drivers → routing matching
+ algorithms: short window of opportunity to match rider and driver → time-to-pic
+kup algorithms: to help rider decide whether to use drs or pbt → safety
+ and reputation system design: authenticate rider and driver before making
+ the match, monitor arrival at destination, feedback system Social Capital
+ impacts: → potential for creating new social connections → riders/drivers
+ matching according to their profiles → create bridging ties across class,
+ race and religious views → important area of research is document whether
+ use of drs does create social connections and which of those connections
+ provide social capital.
+ (Do people become more knowledgeable about local civic life? Do people
+ become more trusting? Do their social networks become more diverse?)
+\end_layout
+
+\begin_layout Subsection
+Pilot Tests of Dynamic Ridesharing
+\end_layout
+
+\begin_layout Standard
+Presents three pilot tests done in the USA, all of them failed.
+ Reasons of failure: too complicated rules and user interface, too weak
+ marketing effort, too few users (After 1 month, 1000 flyers, proposed discounts
+ on parking → 12 users) Adds idea of saving money when parking Adds idea
+ of using social networks to allow car pooling on the fly Thinks about using
+ a web – and mobile service, writes some user stories
+\end_layout
+
+\begin_layout Subsection
+The smart Jitney: Rapid, Realistic Transport 
+\end_layout
+
+\begin_layout Standard
+Focuses on environmental benefits.
+ Asserts that dynamic car sharing would lower GHG emissions in a better
+ way than electric/hydrogen/hybrid cars would do.
+ Introduces idea of Smart Jitney: an unlicensed car driving on a defined
+ route according to a schedule Installation of Auto Event Recorders on cars,
+ enforcing security Challenges are all focused in convincing the population
+ to use the service Proposes a cooperative public development of the system
+ 
+\end_layout
+
+\begin_layout Subsection
+Auction negotiation for mobile Rideshare service 
+\end_layout
+
+\begin_layout Standard
+Agents ???
+\end_layout
+
+\begin_layout Subsection
+Casual Carpooling enhanced
+\end_layout
+
+\begin_layout Standard
+Thinks about areas without HOV lanes Proposes use of RFID chips to quickly
+ identify riders and drivers.
+ Readers should be installed at common pick-up points It would cost less
+ to pay passengers and drivers than to build a HOV lane
+\end_layout
+
+\begin_layout Subsection
+Empty seats travelling
+\end_layout
+
+\begin_layout Standard
+Use the phone as a mean of transport → creates a value in terms of a transport
+ opportunity and communication Points out some factors limiting carpooling
+ arranged via websites: → trip arrangements are not ad hoc, it is impossible
+ to arrange trips to head home from work or to drive shopping → people are
+ not widely encouraged to practice carpooling by local governments Collects
+ obstacles and success factors in terms of sentences, and their solution
+ → “I don't like strangers in my car!”, “I don't like hitchhiking.
+ I don't trust people”, “Arranging shared rides is too complicated, I have
+ flexible working hours”→ “People don't change their habits for the benefit
+ of the environment”.
+ → “Real instant ride sharing is a difficult technology”, → “No sufficient
+ devices will be spread”, → “Gas is too cheap”, → “public transport and
+ car manufacturers will stop it”, Challenge is more in the definition of
+ a path leading from existing ride share services to a fully automated systems.
+\end_layout
+
+\begin_layout Subsection
+Interactive systems for real time dynamic multi hop carpooling
+\end_layout
+
+\begin_layout Standard
+Proposes a dynamic multi-hop system Problems of static carpooling: → matching
+ drivers and riders based on their destinations limits the number of possible
+ rides, and with high waiting times → carpooling is static and does not
+ lend itself well to ad hoc traveling → carpool are very dependent on participan
+t punctuality Asks governments to integrate carpooling in laws, to push
+ for its use PQOS (Perceived quality of service) is increased even driving
+ the passenger away from destination.
+ A driver and a passenger are not matched only if they share the same or
+ similar destination → perfect matching would require high waiting times
+ → set of potential passenger becomes larger → set of potential drivers
+ becomes larger A higher PQOS means more users in less time, a response
+ to the chicken-eggs problem (initial number of willing drivers) Speaks
+ about social aspects: → in single trip with 3 hops a passenger might meet
+ 3 to 10 people → passengers may be socially matched Suggests to link the
+ application with some social networks like facebook, myspace and use profile
+ information to match passengers and riders To improve security, suggests
+ → use of finger print, RFID, voice signature → location of vehicle on the
+ map → using user pictures → assigning random numbers to be used as passwords
+\end_layout
+
+\begin_layout Subsection
+Instant Social Ride Sharing
+\end_layout
+
+\begin_layout Standard
+Key phrase: Minimizing detours and maximizing social connections It assumes
+ there exist a social network database that is used to determine the strength
+ of the social connection between riders and drivers, to calculate a priority
+ of match Gives some algorithms and SQL queries Assumes that there is already
+ a large scale of users, no barriers are taken into account
+\end_layout
+
+\begin_layout Subsection
+Combining Ridesharing & Social Networks
+\end_layout
+
+\begin_layout Standard
+Proposes a mobile and web system that interacts with social networks profiles
+ that should improve security and trust by users Users can register to the
+ system in a traditional way (email, username, password), then complete
+ their profiles by linking their account to multiple existing social networks
+ account, to fill the remaining fields.
+ Otherwise, they have to fill the fields manually and verify their identity
+ in more classical ways Opensocial is proposed as interface.
+ Facebook is not in Opensocial, but there exists a project called opensocket
+ to unite them An own rating system is also complained Mobile system makes
+ use of GPS, creation of a match on the fly Provides some results of surveys
+ about ridesharing → people are ready to spend 17% more time to pickup a
+ driend of the social network rather than a stranger Provides a high-level
+ description of the system, high-level implementation details It is only
+ a proposal, no existent project Asks for extra research on psychological
+ factors that increase trust and perceived safety
+\end_layout
+
+\begin_layout Subsection
+SafeRide: Reducing Single Occupancy Vehicles 
+\end_layout
+
+\begin_layout Standard
+Proposal of project, USA Reports that in reality there is a market-formation
+ problem: to achieve the system that attracts riders, there will have to
+ be many drivers available.
+ the drivers will emerge only when it appears profitable or otherwise desiderabl
+e, and that depends on there being many riders, etc.
+ Someone must discover a winning formula before anyone will invest Lists
+ some interesting user stories Lists algorithms Lists requirements
+\end_layout
+
+\begin_layout Subsection
+Current Trends in Dynamic Ridesharing, identification of Bottleneck Problems
+ and Propositions of Solutions 
+\end_layout
+
+\begin_layout Standard
+Reviews some papers about dynamic ridesharing Reviews some applications
+ Identifies barriers and proposes solutions
 \end_layout
 
 \begin_layout Standard
@@ -451,6 +665,25 @@ Empty Seats Traveling
 \end_inset
 
 2007
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+Dan Kirshner, 
+\begin_inset Quotes eld
+\end_inset
+
+Dynamic Ridesharing
+\begin_inset Quotes erd
+\end_inset
+
+ project, http://dynamicridesharing.org (Accessed Sept.
+ 4th 2010)
 \end_layout
 
 \begin_layout Standard
