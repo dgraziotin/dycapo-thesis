@@ -73,7 +73,13 @@ Faculty of Computer Science
 
 \begin_layout Standard
 \align center
-Image
+\begin_inset Graphics
+	filename img/Unibz_Logo.png
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
