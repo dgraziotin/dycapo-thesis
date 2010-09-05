@@ -59,11 +59,15 @@ thispagestyle{empty}
 
 \begin_layout Standard
 \align center
+
+\size largest
 Free University of Bolzano
 \end_layout
 
 \begin_layout Standard
 \align center
+
+\size largest
 Faculty of Computer Science
 \end_layout
 
@@ -78,23 +82,32 @@ Thesis
 \end_layout
 
 \begin_layout Standard
+\align center
+
+\size huge
 Dycapo: On the creation of an open-source Server and a Protocol for Dynamic
  Carpooling
 \end_layout
 
 \begin_layout Standard
 \align center
+
+\size larger
 Daniel Graziotin
 \end_layout
 
 \begin_layout Standard
 \align center
+
+\size larger
 Thesis Advisor: Prof.
  Paolo Massa, Ph.D.
 \end_layout
 
 \begin_layout Standard
 \align center
+
+\size larger
 October 2010
 \end_layout
 
@@ -350,7 +363,8 @@ e and flexibility to be used on a daily basis.
 status open
 
 \begin_layout Plain Layout
-Kirshner (Accessed Sept 5
+Kirshner, D.
+ (Accessed Sept 5
 \begin_inset Formula $^{\text{th}}$
 \end_inset
 
@@ -370,6 +384,10 @@ Kirshner (Accessed Sept 5
 State of the art 
 \end_layout
 
+\begin_layout Subsection
+Researches
+\end_layout
+
 \begin_layout Standard
 During the research phase eleven papers were analyzed to obtain the state
  of the art.
@@ -380,7 +398,8 @@ During the research phase eleven papers were analyzed to obtain the state
 status open
 
 \begin_layout Plain Layout
-Graziotin (Accessed Sept.
+Graziotin, D.
+ (Accessed Sept.
  5
 \begin_inset Formula $^{\text{th}}$
 \end_inset
@@ -393,7 +412,7 @@ Graziotin (Accessed Sept.
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Sociotechnical support for Ride Sharing
 \end_layout
 
@@ -442,7 +461,7 @@ Research Agenda needed: location awareness devices.
  capital
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Pilot Tests of Dynamic Ridesharing
 \end_layout
 
@@ -467,7 +486,7 @@ Presents three pilot tests done in the USA, all of them failed.
  Thinks about using a web – and mobile- service, writes some user stories.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 The smart Jitney: Rapid, Realistic Transport 
 \end_layout
 
@@ -492,7 +511,7 @@ Focuses on environmental benefits.
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Auction negotiation for mobile Rideshare service
 \end_layout
 
@@ -507,10 +526,11 @@ key "key-6"
 \end_layout
 
 \begin_layout Standard
-Agents ???
+Proposes use of Agents and complex algorithms for person matching and auction
+ mechanisms.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Casual Carpooling enhanced
 \end_layout
 
@@ -532,7 +552,7 @@ Thinks about areas without HOV lanes.
  the service than to build a HOV lane.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Empty seats travelling
 \end_layout
 
@@ -560,7 +580,7 @@ Suggests to use the phone as a mean of transport, creating a value in terms
  share services to a fully automated systems.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Interactive systems for real time dynamic multi hop carpooling
 \end_layout
 
@@ -596,7 +616,7 @@ Proposes a dynamic multi-hop system.
  be used as passwords.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Instant Social Ride Sharing
 \end_layout
 
@@ -611,7 +631,7 @@ key "key-12"
 \end_layout
 
 \begin_layout Standard
-Key phrase: Minimizing detours and maximizing social connections.
+Proposes matching methodologies based on social connections.
  It assumes there exist a social network database that is used to determine
  the strength of the social connection between passengers and drivers, to
  calculate a priority of match.
@@ -620,7 +640,7 @@ Key phrase: Minimizing detours and maximizing social connections.
  into account.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Combining Ridesharing & Social Networks
 \end_layout
 
@@ -635,25 +655,46 @@ key "key-13"
 \end_layout
 
 \begin_layout Standard
-Proposes a mobile and web system that interacts with social networks profiles
+Imagines a mobile and web system that interacts with social networks profiles
  that should improve security and trust by users.
  Users can register to the system in a traditional way (e.g., by giving email,
  username, password), then complete their profiles by linking their account
  to multiple existing social networks account, to fill the remaining fields.
  Otherwise, they have to fill the fields manually and verify their identity
  in more classical ways.
- Proposes Opensocial as interface.
- Facebook is not in Opensocial, but there exists a project called opensocket
- to unite them An own rating system is also complained Mobile system makes
- use of GPS, creation of a match on the fly Provides some results of surveys
- about ridesharing → people are ready to spend 17% more time to pickup a
- driend of the social network rather than a stranger Provides a high-level
- description of the system, high-level implementation details It is only
- a proposal, no existent project Asks for extra research on psychological
- factors that increase trust and perceived safety
+ Proposes Opensocial
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Google, MySpace et al.
+ (Accessed Sept.
+ 5
+\begin_inset Formula $^{\text{th}}$
+\end_inset
+
+ 2010) http://www.opensocial.org/
 \end_layout
 
-\begin_layout Subsection
+\end_inset
+
+ as connection interface.
+ An own rating system is also complained.
+ Mobile system should make use of GPS and creation of a match on the fly
+ (real-time algorithms).
+ 
+\end_layout
+
+\begin_layout Standard
+Provides some results of surveys: people are ready to spend 17% more time
+ to pickup a friend of their social network rather than a stranger.
+ Provides a high-level description of the system, high-level implementation
+ details.
+ Asks for extra research on psychological factors that increase trust and
+ perceived safety.
+\end_layout
+
+\begin_layout Subsubsection
 SafeRide: Reducing Single Occupancy Vehicles 
 \end_layout
 
@@ -668,16 +709,16 @@ key "key-14"
 \end_layout
 
 \begin_layout Standard
-Proposal of project, USA Reports that in reality there is a market-formation
- problem: to achieve the system that attracts passengers, there will have
- to be many drivers available.
- the drivers will emerge only when it appears profitable or otherwise desiderabl
-e, and that depends on there being many passengers, etc.
- Someone must discover a winning formula before anyone will invest Lists
- some interesting user stories Lists algorithms Lists requirements
+Proposal of project in the U.S.A.
+ Reports that there is a market-formation problem: to achieve the system
+ that attracts passengers, there will have to be many drivers available.
+ But the drivers will emerge only when it appears profitable or otherwise
+ desiderable, and that depends on there being many passengers, etc.
+ Someone must discover a winning formula before anyone will invest.
+ Lists some interesting user stories, as well as algorithms and requirements.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Current Trends in Dynamic Ridesharing, identification of Bottleneck Problems
  and Propositions of Solutions 
 \end_layout
@@ -693,8 +734,294 @@ key "key-15"
 \end_layout
 
 \begin_layout Standard
-Reviews some papers about dynamic ridesharing Reviews some applications
- Identifies barriers and proposes solutions
+Reviews some papers about Dynamic Carpooling.
+ Also reviews some applications.
+ Identifies barriers and proposes solutions.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO: add something else.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Systems
+\end_layout
+
+\begin_layout Standard
+After the theoretical research, also the existing systems were taken into
+ consideration.
+ The following list contains the existing Dynamic Carpooling applications
+ and some static, web-based systems that are either innovative or famous.
+ All the reported websites were accessed on Accessed Sept.
+ 5
+\begin_inset Formula $^{\text{th}}$
+\end_inset
+
+2010.
+ For more information and a complete list, please see the Dycapo website
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Graziotin, D.
+ (Accessed Sept.
+ 5
+\begin_inset Formula $^{\text{th}}$
+\end_inset
+
+ 2010) http://dycapo.org/Research/Systems_Analyzed
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Carriva
+\end_layout
+
+\begin_layout Subsubsection*
+https://www.carriva.org/MFC/app
+\end_layout
+
+\begin_layout Standard
+A proprietary solution using phone calls as communication system and a fixed
+ price of 0,10€ / km.
+ Has got 1118 active users.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Avego
+\end_layout
+
+\begin_layout Subsubsection*
+http://www.avego.com
+\end_layout
+
+\begin_layout Standard
+A proprietary application for Apple iPhone.
+ It uses GPS technologies and presents a simple, intuitive useri interface.
+ It handles costs automatically.
+ Passengers are not required to have an iPhone.
+ It will offer information about public transports.
+ Relies on a proprietary service called Futurefleet.
+ On October, 10
+\begin_inset Formula $^{th}$
+\end_inset
+
+ 2009 the service offered 5310 empty seats.
+\end_layout
+
+\begin_layout Subsubsection
+Carticipate
+\end_layout
+
+\begin_layout Subsubsection*
+http://www.carticipate.com
+\end_layout
+
+\begin_layout Standard
+A proprietary iPhone application that integrates with Facebook, defined
+ as 
+\begin_inset Quotes eld
+\end_inset
+
+a location based mobile social network for ride sharing, ride combining,
+ and car pooling
+\begin_inset Quotes erd
+\end_inset
+
+.
+ It has a very simple interface looking like Google Maps mobile.
+ It is available on 59 countries.
+\end_layout
+
+\begin_layout Subsubsection
+Piggyback
+\end_layout
+
+\begin_layout Subsubsection*
+http://www.piggybackmobile.com/
+\end_layout
+
+\begin_layout Standard
+A proprietary Android application usint a step-by-step approach (max.
+ one user input at each application screen) and makes use of graphics instead
+ of text, when possible.
+ Offers the possibility to bookmark addresses.
+ The map screen seems also proprietary.
+ When driver and passengers are matched, their compatibility is showed,
+ represented with stars (0 to 5) and categorized as friendliness, reliability,
+ driving skills and car.
+ Trip cost is also showed.
+ After the ride, the feedback system lets the user set the points for the
+ aspects listed above.
+ The application lets also plan rides using a static approach.
+\end_layout
+
+\begin_layout Subsubsection
+Aktalita 
+\end_layout
+
+\begin_layout Subsubsection*
+http://www.aktalita.com/
+\end_layout
+
+\begin_layout Standard
+An under development application, supposed to be proprietary.
+ 
+\end_layout
+
+\begin_layout Standard
+“Aktalita combines the Web, a geospatially enabled database, and a Java
+ enabled cellphone to provide real-time dynamic carpooling between drivers
+ and passengers”
+\end_layout
+
+\begin_layout Subsubsection
+RideGrid
+\end_layout
+
+\begin_layout Subsubsection*
+http://www.highregardsoftware.com/ridegrid-dynamic-ridesharing.html
+\end_layout
+
+\begin_layout Standard
+Another proprietary, not yet in production system.
+ “RideGrid is a service that uses mobile internet and location technology
+ to enable individuals to obtain rides to and from any location, spontaneously.
+ [..] RideGrid works by dynamically combining routes.
+ We evaluate the change required in a driver's route such that it passes
+ through the desired source and destination of a compatible rider, and broker
+ the agreement.
+ We have proprietary means to calculate the routes, monetize the transactions,
+ and introduce people to others they trust.
+ “
+\end_layout
+
+\begin_layout Standard
+It uses an internal credit system.
+ The client has an outdated classical Java Micro Edition interface.
+\end_layout
+
+\begin_layout Subsubsection
+Project Carpool
+\end_layout
+
+\begin_layout Subsubsection*
+https://launchpad.net/carpool
+\end_layout
+
+\begin_layout Standard
+The only open-source project, uses PHP and Javascript.
+ The development seems discontinued.
+\end_layout
+
+\begin_layout Subsubsection
+GoLoco
+\end_layout
+
+\begin_layout Subsubsection*
+http://goloco.org/
+\end_layout
+
+\begin_layout Standard
+A proprietary web application that also relies on Facebook.
+ It uses a private payment system
+\end_layout
+
+\begin_layout Subsubsection
+Ecolane DRT
+\end_layout
+
+\begin_layout Subsubsection*
+http://www.ecolane.com/
+\end_layout
+
+\begin_layout Standard
+A proprietary solution, web-based, focused on security.
+\end_layout
+
+\begin_layout Subsubsection
+Divide The Ride
+\end_layout
+
+\begin_layout Subsubsection*
+http://www.dividetheride.com/
+\end_layout
+
+\begin_layout Standard
+A static, web-based solution organized around children activities.
+ Families invite other trusted families to join their group.
+ Groups get notifications when a ride is needed.
+\end_layout
+
+\begin_layout Subsubsection
+iCarpool
+\end_layout
+
+\begin_layout Subsubsection*
+http://www.icarpool.com
+\end_layout
+
+\begin_layout Standard
+A static, web-based system that does not require payments.
+ Declares to use proprietary algorithms for ride matching.
+ “High precision trip matching.
+ helps you find the best carpool match.
+ Find co-workers, neighbors and friends for carpool.
+ Use for daily commute, recurring trips, long distance trips and events
+ Plan ahead or use on-demand”.
+ Matching criteria seem to include social relationships.
+\end_layout
+
+\begin_layout Subsubsection
+Hover
+\end_layout
+
+\begin_layout Subsubsection*
+http://www.hoverport.org/
+\end_layout
+
+\begin_layout Standard
+A casual carpooling system using RFID technologies and an own credit system.
+ Members are approved after verfication tests.
+ Persons must meet at a location called “Hover Park” and are identified
+ by the RFID system.
+ On exiting the Hover Park, the system recognizes driver and passengers
+ and distributes credit points.
+ There are several destination points available, that register the arrival
+ in the same way.
+ It also offer a guaranteed back-to-home system, by using taxis.
+\end_layout
+
+\begin_layout Subsubsection
+Flinc
+\end_layout
+
+\begin_layout Subsubsection*
+http://www.flinc.mobi/
+\end_layout
+
+\begin_layout Standard
+A Dynamic Carpooling system using smartphones (Android and Apple iPhone).
+ “Flinc connects navigation systems and mobile phones and arranges available
+ seats within a few seconds - directly in the car and on the pavement.
+ Flinc combines GPS and location-based capabilities with social networking
+ to offer a dynamic and automated method of getting from one place to another.
+ The service can be used on smartphones or on the PC or Mac, helping users
+ create rides within a few seconds via an entirely automated process.”.
 \end_layout
 
 \begin_layout Standard
