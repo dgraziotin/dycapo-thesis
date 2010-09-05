@@ -1030,6 +1030,36 @@ A Dynamic Carpooling system using smartphones (Android and Apple iPhone).
  create rides within a few seconds via an entirely automated process.”.
 \end_layout
 
+\begin_layout Subsection
+Outcomes
+\end_layout
+
+\begin_layout Standard
+The analysis of the state of the art brought some issues related to adopting
+ Dynamic Carpooling systems, also recognized by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-15"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO: add missing part
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
@@ -1041,8 +1071,207 @@ A Dynamic Carpooling system using smartphones (Android and Apple iPhone).
 Dycapo System
 \end_layout
 
+\begin_layout Standard
+In this section the outcomes of this dissertation are presented.
+ Dycapo is developed using an open, collaborative development system.
+ The official website
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://dycapo.org
+\end_layout
+
+\end_inset
+
+ is the start point.
+ Every information and outcome related to the project is stored in a Wiki,
+ freely accessible and discussable.
+ The code is available in an open GIT repository 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://github.com/BodomLx/dycapo
+\end_layout
+
+\end_inset
+
+.
+ The Wiki content and the source are available under permissive and open
+ licenses.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO: parallel development of the server
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Protocol
+\end_layout
+
+\begin_layout Standard
+Dycapo Protocol is an open application-level protocol for enabling communication
+ between Dynamic (and static) Carpooling servers and clients, using HTTP
+ 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://www.ietf.org/rfc/rfc2616.txt
+\end_layout
+
+\end_inset
+
+ and JSON 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://www.ietf.org/rfc/rfc4627.txt
+\end_layout
+
+\end_inset
+
+.
+ It is inspired by OpenTrip Core
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://opentrip.info/wiki/OpenTrip_Core
+\end_layout
+
+\end_inset
+
+, a former proposal of data exhange format for Carpooling and Dynamic Carpooling
+ presented during the MIT "Real-Time" Rideshare Research workshop
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://ridesharechoices.scripts.mit.edu/home/workshop/
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+Entities
+\end_layout
+
+\begin_layout Standard
+The entities defined by OpenTrip core (using Atom Syndication
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://www.ietf.org/rfc/rfc4287.txt
+\end_layout
+
+\end_inset
+
+ format) have been extracted and represented using UML 2.1 Class diagrams.
+ While proceding and discussing the development of the server, those entities
+ were extended and adapted.
+ As discussed at the beginning of the next section, the entities were first
+ encoded using XML-RPC data format, then JSON.
+ The entities are represented in the Protocol using descriptive tables and
+ real world code snippets.
+ The Dycapo Protocol draft version of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+ is included in the Appendix A.
+\end_layout
+
+\begin_layout Standard
+The following are the Models of Dycapo Protocol:
+\end_layout
+
+\begin_layout Itemize
+Location - represents a geographical position 
+\end_layout
+
+\begin_layout Itemize
+Person
+\end_layout
+
+\begin_layout Itemize
+Trip
+\end_layout
+
+\begin_layout Itemize
+Modality
+\end_layout
+
+\begin_layout Itemize
+Preferences
+\end_layout
+
+\begin_layout Itemize
+Participation
+\end_layout
+
+\begin_layout Itemize
+Search
+\end_layout
+
+\begin_layout Standard
+As example, the following is the definition of the Location object:
+\end_layout
+
+\begin_layout Subsection
+Operations
+\end_layout
+
+\begin_layout Standard
+The parallel development of the server and the complexity of the entities
+ involved in the protocol, lent to the decision to first use XML-RPC 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://www.xmlrpc.com/spec
+\end_layout
+
+\end_inset
+
+ to transport Dycapo Protocol objects in a Service-Oriented architecture.
+ Moreover, it was easier for testing the application to both think and develop
+ using services, therefore methods and actions.
+ After reaching a considerable stable state of both the protocol definition
+ and the server prototype, a switch to a complete Resource-Oriented architecture
+ has been made, i.e.
+ the definition of a full 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-1"
+
+\end_inset
+
+REST application-level Protocol.
 \end_layout
 
 \begin_layout Subsection
@@ -1111,6 +1340,17 @@ key "key-6"
 \end_inset
 
  Auctions Negotiation for Mobile Rideshare Service
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Fielding, R.T. (2000)"
+key "key-1"
+
+\end_inset
+
+Architectural Styles and the Design of Network-based Software Architectures
 \end_layout
 
 \begin_layout Bibliography
