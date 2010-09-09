@@ -106,8 +106,7 @@ Daniel Graziotin
 \align center
 
 \size larger
-Thesis Advisor: Prof.
- Paolo Massa, Ph.D.
+Thesis Advisor: Paolo Massa, Ph.D.
 \end_layout
 
 \begin_layout Standard
@@ -318,8 +317,45 @@ pagenumbering{arabic}
 Introduction
 \end_layout
 
-\begin_layout Subsection
-General Information 
+\begin_layout Standard
+Using a private car is a very convenient way of transportation system.
+ Between year 2004 and 2009, the production of private vehicles has been
+ of 295.216.282 units 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+(Accessed Sept.
+ 9 2010) http://oica.net/
+\end_layout
+
+\end_inset
+
+ and As of 2004, there were 199M registered drivers
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://www.fhwa.dot.gov/
+\end_layout
+
+\end_inset
+
+.
+ Road transport is responsible for about 16% of man-made CO2 emissions
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+(Accessed Sept.
+ 9 2010) http://oica.net/
+\end_layout
+
+\end_inset
+
+.
+ The availability of fuel is also highly affected by the number of cars
+ used.
 \end_layout
 
 \begin_layout Standard
@@ -338,13 +374,20 @@ key "key-0"
  of resources, in terms of gasoline and time.
  It causes pollutes in the air.
  It stresses the parking.
- One solution is carpooling, i.e.
- the share of a private vehicle between one or more passengers.
- 
+ It also provokes a loss in terms of social capital, as people miss an opportuni
+ty to meet and talk.
 \end_layout
 
-\begin_layout Subsection
-Dynamic Carpooling
+\begin_layout Standard
+One solution is carpooling, i.e.
+ the share of a private vehicle between one or more passengers.
+ It reduces the costs involved in car travel by dividing costs such as as
+ fuel, tolls, and car rental.
+ It is also an environmentally friendly and sustainable way to transport
+ people, as reducing the number of cars used, it reduces carbon emissions,
+ traffic on the roads, and the need for parking spaces.
+ Last but not least, it lets people meet and talk, rising social connections
+ and social capital.
 \end_layout
 
 \begin_layout Standard
@@ -379,6 +422,17 @@ Kirshner, D.
 
 \end_inset
 
+.
+\end_layout
+
+\begin_layout Standard
+There are many issues related to the implementation and the adoption of
+ dynamic carpooling systems, discussed in the first section of this dissertation
+ research.
+ Among them, our interest is to solve those related to technological aspects
+ and our contribution will be presented afterwards, which is an attempt
+ to provide the world a solid, open and collaborative base framework to
+ start with when implementing such systems.
  
 \begin_inset Newpage pagebreak
 \end_inset
@@ -387,11 +441,24 @@ Kirshner, D.
 \end_layout
 
 \begin_layout Section
-State of the art 
+State of the art
+\end_layout
+
+\begin_layout Standard
+This section contains a summary of the state of the art regarding dynamic
+ ridesharing.
+ It is divided in three parts.
+ In the first part there is a summary of the researches done - in order
+ of publication - and their contribution in deriving and solving problems
+ about.
+ Then we introduce a brief analysis of the deployed systems.
+ In the last part we present the outcomes of the analysis of the whole state
+ of the art and how we decided to move in order to provide a significant
+ contribute in solving the problem of adopting dynamic ridesharing services.
 \end_layout
 
 \begin_layout Subsection
-Researches
+Published Papers
 \end_layout
 
 \begin_layout Standard
