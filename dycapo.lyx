@@ -679,7 +679,7 @@ Google, MySpace et al.
 \begin_inset Formula $^{\text{th}}$
 \end_inset
 
- 2010) http://www.opensocial.org/
+ 2010) - http://www.opensocial.org/
 \end_layout
 
 \end_inset
@@ -767,7 +767,7 @@ After the theoretical research, also the existing systems were taken into
  consideration.
  The following list contains the existing Dynamic Carpooling applications
  and some static, web-based systems that are either innovative or famous.
- All the reported websites were accessed on Accessed Sept.
+ All the reported websites were accessed on Sept.
  5
 \begin_inset Formula $^{\text{th}}$
 \end_inset
@@ -779,12 +779,7 @@ status open
 
 \begin_layout Plain Layout
 Graziotin, D.
- (Accessed Sept.
- 5
-\begin_inset Formula $^{\text{th}}$
-\end_inset
-
- 2010) http://dycapo.org/Research/Systems_Analyzed
+ - http://dycapo.org/Research/Systems_Analyzed
 \end_layout
 
 \end_inset
@@ -1036,7 +1031,7 @@ Outcomes
 
 \begin_layout Standard
 The analysis of the state of the art brought some issues related to adopting
- Dynamic Carpooling systems, also recognized by 
+ Dynamic Carpooling systems, many of them recognized by 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-15"
@@ -1045,18 +1040,41 @@ key "key-15"
 
 .
  It has been decided to focus on technical aspects.
- Among them, it has been observed that all the source code of the projects
- and the prototypes produced was not freely accessible by the general public.
+ Among them, it has been observed that the source code of the projects and
+ the prototypes produced was not freely accessible by the general public.
  Another issue seems related to a missing standardization of the protocols
- used by them.
- Thus, the following decision was made: the introduction of an open, discussable
- protocol for communication between dynamic (and static) carpooling systems
- and an open-source server prototype implementing the protocol would act
- as a solid base for the creation of concrete projects.
+ used.
+ Therefore, every project started from zero and 
+\begin_inset Quotes eld
+\end_inset
+
+reinventing the wheel
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Thus, the following decision was made: the introduction of:
+\end_layout
+
+\begin_layout Itemize
+An open, discussable protocol for communication between dynamic (and static)
+ carpooling systems
+\end_layout
+
+\begin_layout Itemize
+An open-source server prototype implementing the protocol 
+\end_layout
+
+\begin_layout Standard
+Would act as a solid base for the creation of concrete projects.
  The openness of the research outcomes, the source-code and the protocol
- would more likely attract both the general and a specialized public to
+ would more likely attract both the general and the specialized public to
  collaborate to the project.
- Therefore, the Dycapo was born.
+ Therefore, the Dycapo project was born.
 \end_layout
 
 \begin_layout Standard
@@ -1067,7 +1085,7 @@ key "key-15"
 \end_layout
 
 \begin_layout Section
-Dycapo System
+Dycapo
 \end_layout
 
 \begin_layout Standard
@@ -1091,7 +1109,7 @@ http://dycapo.org
 status open
 
 \begin_layout Plain Layout
-MediaWiki, http://www.mediawiki.org/wiki/MediaWiki
+MediaWiki - http://www.mediawiki.org/wiki/MediaWiki
 \end_layout
 
 \end_inset
@@ -1122,26 +1140,13 @@ Server - the prototype implementing dynamic carpooling functionalities and
 Client - will act as a start point for the clients implementing the protocol
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-TODO: parallel development of the server
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Protocol
 \end_layout
 
 \begin_layout Standard
 Dycapo Protocol is an open application-level protocol for enabling communication
- between Dynamic (and static) Carpooling servers and clients, using HTTP
+ between dynamic (and static) carpooling servers and clients, using HTTP
  
 \begin_inset Foot
 status open
@@ -1152,7 +1157,7 @@ http://www.ietf.org/rfc/rfc2616.txt
 
 \end_inset
 
- and JSON 
+ for operations and JSON 
 \begin_inset Foot
 status open
 
@@ -1162,7 +1167,7 @@ http://www.ietf.org/rfc/rfc4627.txt
 
 \end_inset
 
-.
+ as data exchange format.
  It is inspired by OpenTrip Core
 \begin_inset Foot
 status open
@@ -1185,10 +1190,21 @@ http://ridesharechoices.scripts.mit.edu/home/workshop/
 \end_inset
 
 .
- 
+ The protocol is released under Creative Commons Attribution-ShareAlike
+ 3.0 Unported license
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://creativecommons.org/licenses/by-sa/3.0/legalcode
 \end_layout
 
-\begin_layout Subsection
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
 Entities
 \end_layout
 
@@ -1235,40 +1251,40 @@ Location - represents a geographical position
 \end_layout
 
 \begin_layout Itemize
-Person
+Person - a User of the system
 \end_layout
 
 \begin_layout Itemize
-Trip
+Trip - a single course of travel taken as part of one's duty, work, etc,
+ offered by a Person.
 \end_layout
 
 \begin_layout Itemize
-Modality
+Modality - a description about the mode of transportation being used by
+ the Person offering a Trip
 \end_layout
 
 \begin_layout Itemize
-Preferences
+Preferences - the preferences of a Driver when performing a Trip
 \end_layout
 
 \begin_layout Itemize
-Participation
+Participation - representing the fact of taking part in a Trip.
+ Both a driver and passengers participate in a Trip.
 \end_layout
 
 \begin_layout Itemize
-Search
+Search - helper object to construct the complex queries related to the search
+ of a Trip
 \end_layout
 
-\begin_layout Standard
-As example, the following is the definition of the Location object:
-\end_layout
-
-\begin_layout Subsection
+\begin_layout Subsubsection
 Operations
 \end_layout
 
 \begin_layout Standard
 The parallel development of the server and the complexity of the entities
- involved in the protocol, lent to the decision to first use XML-RPC 
+ involved in the protocol lent to the decision to first use XML-RPC 
 \begin_inset Foot
 status open
 
@@ -1284,14 +1300,68 @@ http://www.xmlrpc.com/spec
  After reaching a considerable stable state of both the protocol definition
  and the server prototype, a switch to a complete Resource-Oriented architecture
  has been made, i.e.
- the definition of a full 
+ the definition of a full REST 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-1"
 
 \end_inset
 
-REST application-level Protocol.
+ application-level protocol.
+\end_layout
+
+\begin_layout Standard
+All the operations are performed using HTTP methods GET, POST, PUT, DELETE
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-18"
+
+\end_inset
+
+.
+ They are available in Appendix A.
+ This dissertation focuses on the implementation of the functionalities
+ in the Server section.
+\end_layout
+
+\begin_layout Standard
+The following UML sequence diagram summarizes a full user story - the creation
+ of a Trip, the participation of a passenger and its end.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/Simple_Dycapo_interaction.jpg
+	width 130text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Interaction of two clients and Dycapo Server using Dycapo Protocol
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1299,7 +1369,21 @@ Server
 \end_layout
 
 \begin_layout Standard
-The code is available in an open GIT repository 
+Dycapo Server is a software built using first throwaway then evolutionary
+ prototyping - as defined by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-2"
+
+\end_inset
+
+ to demonstrate and support the definition of a standard protocol for dynamic
+ carpooling.
+ 
+\end_layout
+
+\begin_layout Standard
+The source-code is available in an open GIT repository 
 \begin_inset Foot
 status open
 
@@ -1309,7 +1393,24 @@ http://github.com/BodomLx/dycapo
 
 \end_inset
 
+, under the Apache License, version 2.0
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://www.apache.org/licenses/LICENSE-2.0.html
+\end_layout
+
+\end_inset
+
 .
+\end_layout
+
+\begin_layout Subsubsection
+General Architecture View
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -1369,12 +1470,34 @@ key "key-6"
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
+label "Davis, A.M. (1992)"
+key "key-2"
+
+\end_inset
+
+Operational prototyping: a new development approach
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
 label "Fielding, R.T. (2000)"
 key "key-1"
 
 \end_inset
 
 Architectural Styles and the Design of Network-based Software Architectures
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Fielding, R.T. et al. (1999)"
+key "key-18"
+
+\end_inset
+
+Hypertext Transfer Protocol -- HTTP/1.1
 \end_layout
 
 \begin_layout Bibliography
