@@ -72,6 +72,7 @@ Faculty of Computer Science
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing other 3
 \align center
 \begin_inset Graphics
 	filename img/Unibz_Logo.png
@@ -83,11 +84,15 @@ Faculty of Computer Science
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing double
 \align center
+
+\size large
 Thesis
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing other 3
 \align center
 
 \size huge
@@ -427,8 +432,7 @@ Kirshner, D.
 
 \begin_layout Standard
 There are many issues related to the implementation and the adoption of
- dynamic carpooling systems, discussed in the first section of this dissertation
- research.
+ dynamic carpooling systems, discussed in the first section of this dissertation.
  Among them, our interest is to solve those related to technological aspects
  and our contribution will be presented afterwards, which is an attempt
  to provide the world a solid, open and collaborative base framework to
@@ -448,7 +452,7 @@ State of the art
 This section contains a summary of the state of the art regarding dynamic
  ridesharing.
  It is divided in three parts.
- In the first part there is a summary of the researches done - in order
+ In the first part there is a summary of the published papers - in order
  of publication - and their contribution in deriving and solving problems
  about.
  Then we introduce a brief analysis of the deployed systems.
@@ -500,38 +504,59 @@ key "key-3"
 \end_layout
 
 \begin_layout Standard
-List
-\size small
-s
-\size default
- barriers and changes to be done to reduce them.
- Provides scenarios and current status: Reports about High Occupancy Vehicles
- (HOV) lane on streets of San Francisco and Oakland.
- There should be no fees on bridges for HOVs.
- Suggests conventions between drivers and passengers (e.g.
+This paper lists barriers and changes to be done to reduce them.
+ It reports about High Occupancy Vehicles (HOV) lane on streets of San Francisco
+ and Oakland and complaints that there should be no fees on bridges for
+ HOVs.
+ The author suggests conventions between drivers and passengers (e.g.
  pickup points near public transportation stops).
- Regarding security, suggests to give priority to female passengers, to
- not leave them alone waiting for a ride.
- Reports that there are no stories about rape, kidnapping or murder and
- the most common problem is bad driving.
+ Regarding security, the work suggests to give priority to female passengers,
+ to not leave them alone waiting for a ride.
+ The paper reports that there are no stories about rape, kidnapping or murder
+ and the most common problem is bad driving.
 \end_layout
 
 \begin_layout Standard
-Research Agenda needed: location awareness devices.
- Instant ridesharing limited to fixed pickups and dropoff locations.
- User Interface design: simple interfaces for passengers and drivers.
- Routing matching algorithms: short window of opportunity to match passenger
+There are suggestions on research needed: 
+\end_layout
+
+\begin_layout Itemize
+Need of location awareness devices, because instant ridesharing is limited
+ to fixed pickups and dropoff locations.
+ 
+\end_layout
+
+\begin_layout Itemize
+Simple user interfaces for passengers and drivers.
+ 
+\end_layout
+
+\begin_layout Itemize
+Routing matching algorithms: short window of opportunity to match passenger
  and driver.
- Time-to-pickup algorithms: to help passenger decide whether to use carpooling
+ 
+\end_layout
+
+\begin_layout Itemize
+Time-to-pickup algorithms: to help passenger decide whether to use carpooling
  or Public Transportation System.
- Safety and reputation system design: authenticate passenger and driver
- before making the match, monitor arrival at destination, feedback system.
- Social Capital impacts: potential for creating new social connections;
- passengers/drivers matching according to their profiles creates bridging
- across class, race and religious views.
- An important area of research is document whether use of Dynamic Carpooling
+ 
+\end_layout
+
+\begin_layout Itemize
+Safety and reputation system design: authenticate passenger and driver before
+ making the match, monitor arrival at destination, feedback system.
+ 
+\end_layout
+
+\begin_layout Standard
+The paper talks about social capital impacts: there is the potential for
+ creating new social connections and also matching drivers and passengers
+ according to their profiles creates bridging across class, race and religious
+ views.
+ An important area of research is document whether use of dynamic carpooling
  does create social connections and which of those connections provide social
- capital
+ capital.
 \end_layout
 
 \begin_layout Subsubsection
@@ -549,14 +574,31 @@ key "key-4"
 \end_layout
 
 \begin_layout Standard
-Presents three pilot tests done in the USA, all of them failed.
- Reasons of failure are the following: too complicated rules and user interface,
- too weak marketing effort, too few users.
+The author presents three pilot tests done in the USA, all of them failed.
+ The reasons of failure are the following: 
+\end_layout
+
+\begin_layout Itemize
+Too complicated rules and user interface
+\end_layout
+
+\begin_layout Itemize
+Too weak marketing effort
+\end_layout
+
+\begin_layout Itemize
+Too few users.
  After 1 month, 1000 flyers distributed to the public and a proposed discount
  on parking, only 12 users were using the system.
- Adds idea of saving money when parking.
- Adds idea of using social networks to allow car pooling on the fly.
- Thinks about using a web – and mobile- service, writes some user stories.
+ 
+\end_layout
+
+\begin_layout Standard
+The paper adds the idea of saving money when parking.
+ It also enforces the idea of using social networks to allow car pooling
+ on the fly.
+ The author imagines about using a web – and mobile service, also writing
+ some interesting user stories.
 \end_layout
 
 \begin_layout Subsubsection
@@ -574,14 +616,18 @@ key "key-5"
 \end_layout
 
 \begin_layout Standard
-Focuses on environmental benefits.
- Asserts that dynamic car sharing would lower GHG emissions in a better
+The work focuses on environmental benefits of dynamic carpooling.
+ It asserts that dynamic car sharing would lower GHG emissions in a better
  way than electric/hydrogen/hybrid cars would do.
- Introduces idea of Smart Jitney: an unlicensed car driving on a defined
- route according to a schedule Installation of Auto Event Recorders on cars,
- enforcing security Challenges are all focused in convincing the population
- to use the service Proposes a cooperative public development of the system
- 
+ It introduces the idea of Smart Jitney: an unlicensed car driving on a
+ defined route according to a schedule.
+\end_layout
+
+\begin_layout Standard
+The author suggests the installation of Auto Event Recorders on cars, enforcing
+ security.
+ It complaints that challenges are all focused in convincing the population
+ to use the service, proposing a cooperative public development of the system.
 \end_layout
 
 \begin_layout Subsubsection
@@ -599,8 +645,8 @@ key "key-6"
 \end_layout
 
 \begin_layout Standard
-Proposes use of Agents and complex algorithms for person matching and auction
- mechanisms.
+The paper proposes the use of Agents and complex algorithms for person matching
+ and auction mechanisms.
 \end_layout
 
 \begin_layout Subsubsection
@@ -618,11 +664,12 @@ key "key-10"
 \end_layout
 
 \begin_layout Standard
-Thinks about areas without HOV lanes.
- Proposes the use of RFID chips to quickly identify passengers and drivers.
+The author thinks about areas without HOV lanes.
+ He proposes the use of Radio Frequency IDentification chips to quickly
+ identify passengers and drivers.
  Readers should be installed at common pick-up points.
- Complaints that it would cost less to pay passengers and drivers for using
- the service than to build a HOV lane.
+ The paper complaints that it would cost less to pay passengers and drivers
+ for using the service than to build a HOV lane.
 \end_layout
 
 \begin_layout Subsubsection
@@ -640,17 +687,27 @@ key "key-0"
 \end_layout
 
 \begin_layout Standard
-Suggests to use the phone as a mean of transport, creating a value in terms
- of a transport opportunity and communication.
- Points out some factors limiting carpooling arranged via websites: trip
- arrangements are not ad hoc, it is impossible to arrange trips to head
- home from work or to drive shopping.
- Notice that people are not widely encouraged to practice carpooling by
- local governments.
- Collects obstacles and success factors in terms of sentences, and their
- solution.
- Challenge is more in the definition of a path leading from existing ride
- share services to a fully automated systems.
+This paper suggests to use the phone as a mean of transport, creating a
+ value in terms of a transport opportunity and communication.
+ It points out some factors limiting carpooling arranged via websites: 
+\end_layout
+
+\begin_layout Itemize
+Trip arrangements are not ad hoc
+\end_layout
+
+\begin_layout Itemize
+It is impossible to arrange trips to head home from work or to drive shopping.
+ 
+\end_layout
+
+\begin_layout Standard
+The paper notices that people are not widely encouraged to practice carpooling
+ by local governments.
+ It collects obstacles and success factors in terms of human sentences,
+ and their solution.
+ The author says that the challenge is in the definition of a path leading
+ from existing ride share services to a fully automated systems.
 \end_layout
 
 \begin_layout Subsubsection
@@ -668,25 +725,34 @@ key "key-11"
 \end_layout
 
 \begin_layout Standard
-Proposes a dynamic multi-hop system.
- Problems of static carpooling are that matching drivers and passengers
- based on their destinations limits the number of possible rides, and with
- high waiting times.
+The author proposes a dynamic multi-hop system, by dividing a passenger
+ route into smaller segments being part of other trips.
+ He complaints that Problems of static carpooling are that matching drivers
+ and passengers based on their destinations limits the number of possible
+ rides, and with high waiting times.
  Carpooling is static and does not lend itself well to ad hoc traveling.
- Carpool are very dependent on participant punctuality.
- Asks governments to integrate carpooling in laws, to push for its use.
- Perceived quality of service is increased even driving the passenger away
- from destination.
- A driver and a passenger should not be matched only if they share the same
- or similar destination because perfect matching would require high waiting
- times.
- Speaks about social aspects: in a single trip with 3 hops a passenger might
- meet 3 to 10 people, therefore passengers may be socially matched.
- Suggests to link the application with some social networks like Facebook,
+ The paper asks governments to integrate carpooling in laws and to push
+ for its use.
+ The author complaints that the perceived quality of service is increased
+ even driving the passenger away from destination: a driver and a passenger
+ should not be matched only if they share the same or similar destination
+ because perfect matching would require high waiting times.
+ 
+\end_layout
+
+\begin_layout Standard
+The paper also speaks about social aspects: in a single trip with 3 hops
+ a passenger might meet 3 to 10 people, therefore passengers may be socially
+ matched.
+ It suggests to link the application with some social networks like Facebook,
  MySpace and use profile information to match drivers and passengers.
- Security improvement: use of finger-prints, RFID, voice signature, location
- of vehicle on the map, using user pictures, assigning random numbers to
- be used as passwords.
+ 
+\end_layout
+
+\begin_layout Standard
+As security improvement, the paper suggests: the use of finger-prints, RFID,
+ voice signature, display the location of vehicles on a map, using user
+ pictures, assigning random numbers to be used as passwords.
 \end_layout
 
 \begin_layout Subsubsection
@@ -704,13 +770,14 @@ key "key-12"
 \end_layout
 
 \begin_layout Standard
-Proposes matching methodologies based on social connections.
+The paper proposes matching methodologies based on social connections.
  It assumes there exist a social network database that is used to determine
  the strength of the social connection between passengers and drivers, to
  calculate a priority of match.
- Gives some algorithms and SQL queries.
- Assumes that there is already a large scale of users, no barriers are taken
- into account.
+ It Gives some algorithms and SQL queries.
+ The author assumes that there is already a large scale of users, and no
+ barriers are taken into account.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -728,14 +795,14 @@ key "key-13"
 \end_layout
 
 \begin_layout Standard
-Imagines a mobile and web system that interacts with social networks profiles
- that should improve security and trust by users.
+The author imagines a mobile and web system that interacts with social networks
+ profiles that should improve security and trust by users.
  Users can register to the system in a traditional way (e.g., by giving email,
  username, password), then complete their profiles by linking their account
  to multiple existing social networks account, to fill the remaining fields.
  Otherwise, they have to fill the fields manually and verify their identity
  in more classical ways.
- Proposes Opensocial
+ The paper proposes Opensocial
 \begin_inset Foot
 status open
 
@@ -753,18 +820,22 @@ Google, MySpace et al.
 
  as connection interface.
  An own rating system is also complained.
- Mobile system should make use of GPS and creation of a match on the fly
- (real-time algorithms).
  
 \end_layout
 
 \begin_layout Standard
-Provides some results of surveys: people are ready to spend 17% more time
- to pickup a friend of their social network rather than a stranger.
- Provides a high-level description of the system, high-level implementation
+It suggests the use of mobile systems, that should make use of GPS and creation
+ of a match on the fly (real-time algorithms).
+ The work provides some results of surveys: people are ready to spend 17%
+ more time to pickup a friend of their social network rather than a stranger.
+ It also provides a high-level description of the system and implementation
  details.
- Asks for extra research on psychological factors that increase trust and
- perceived safety.
+ 
+\end_layout
+
+\begin_layout Standard
+The author asks for extra research on psychological factors that increase
+ trust and perceived safety.
 \end_layout
 
 \begin_layout Subsubsection
@@ -782,13 +853,18 @@ key "key-14"
 \end_layout
 
 \begin_layout Standard
-Proposal of project in the U.S.A.
- Reports that there is a market-formation problem: to achieve the system
+The publication is about a project in the U.S.A.
+ It reports that there is a market-formation problem: to achieve the system
  that attracts passengers, there will have to be many drivers available.
  But the drivers will emerge only when it appears profitable or otherwise
  desiderable, and that depends on there being many passengers, etc.
- Someone must discover a winning formula before anyone will invest.
- Lists some interesting user stories, as well as algorithms and requirements.
+ The author complaints that someone must discover a winning formula before
+ anyone will invest.
+\end_layout
+
+\begin_layout Standard
+The paper lists some interesting user stories, as well as algorithms and
+ requirements.
 \end_layout
 
 \begin_layout Subsubsection
@@ -833,14 +909,19 @@ Systems
 After the theoretical research, also the existing systems were taken into
  consideration.
  The following list contains the existing Dynamic Carpooling applications
- and some static, web-based systems that are either innovative or famous.
+ and some static, web-based systems that are either innovative or well-known.
  All the reported websites were accessed on Sept.
  5
 \begin_inset Formula $^{\text{th}}$
 \end_inset
 
 2010.
- For more information and a complete list, please see the Dycapo website
+ Each text eclosed in double quotes is copied from the website of the applicatio
+n.
+\end_layout
+
+\begin_layout Standard
+For more information and a complete list, please see the Dycapo website
 \begin_inset Foot
 status open
 
@@ -863,9 +944,9 @@ https://www.carriva.org/MFC/app
 \end_layout
 
 \begin_layout Standard
-A proprietary solution using phone calls as communication system and a fixed
- price of 0,10€ / km.
- Has got 1118 active users.
+It is a proprietary solution using phone calls as communication system and
+ a fixed price of 0,10€ / km.
+ Currently it has got 1118 active users.
  
 \end_layout
 
@@ -878,12 +959,13 @@ http://www.avego.com
 \end_layout
 
 \begin_layout Standard
-A proprietary application for Apple iPhone.
+It is a proprietary application for Apple iPhone.
  It uses GPS technologies and presents a simple, intuitive useri interface.
  It handles costs automatically.
- Passengers are not required to have an iPhone.
+ The passengers are not required to have an iPhone.
  It will offer information about public transports.
- Relies on a proprietary service called Futurefleet.
+ The application relies on a proprietary service called Futurefleet, on
+ which no implementation details are given.
  On October, 10
 \begin_inset Formula $^{th}$
 \end_inset
@@ -900,8 +982,8 @@ http://www.carticipate.com
 \end_layout
 
 \begin_layout Standard
-A proprietary iPhone application that integrates with Facebook, defined
- as 
+Carticipate is a proprietary iPhone application that integrates with Facebook,
+ defined as 
 \begin_inset Quotes eld
 \end_inset
 
@@ -912,7 +994,7 @@ a location based mobile social network for ride sharing, ride combining,
 
 .
  It has a very simple interface looking like Google Maps mobile.
- It is available on 59 countries.
+ According to the website, it is available on 59 countries.
 \end_layout
 
 \begin_layout Subsubsection
@@ -924,18 +1006,18 @@ http://www.piggybackmobile.com/
 \end_layout
 
 \begin_layout Standard
-A proprietary Android application usint a step-by-step approach (max.
- one user input at each application screen) and makes use of graphics instead
- of text, when possible.
- Offers the possibility to bookmark addresses.
- The map screen seems also proprietary.
- When driver and passengers are matched, their compatibility is showed,
+It is an Android application using a step-by-step approach (maximum one
+ user input at each application screen) and makes wide use of graphical
+ representations instead of text.
+ It offers the possibility to bookmark addresses.
+ The map screen is proprietary.
+ When a driver and passengers are matched their compatibility is showed,
  represented with stars (0 to 5) and categorized as friendliness, reliability,
  driving skills and car.
- Trip cost is also showed.
+ The trip cost is also showed.
  After the ride, the feedback system lets the user set the points for the
  aspects listed above.
- The application lets also plan rides using a static approach.
+ The application lets also plan rides using a static carpooling approach.
 \end_layout
 
 \begin_layout Subsubsection
@@ -947,7 +1029,7 @@ http://www.aktalita.com/
 \end_layout
 
 \begin_layout Standard
-An under development application, supposed to be proprietary.
+It is an under development application, supposed to be proprietary.
  
 \end_layout
 
@@ -966,7 +1048,7 @@ http://www.highregardsoftware.com/ridegrid-dynamic-ridesharing.html
 \end_layout
 
 \begin_layout Standard
-Another proprietary, not yet in production system.
+Ridegrid is another proprietary, not yet in production system.
  “RideGrid is a service that uses mobile internet and location technology
  to enable individuals to obtain rides to and from any location, spontaneously.
  [..] RideGrid works by dynamically combining routes.
@@ -992,8 +1074,9 @@ https://launchpad.net/carpool
 \end_layout
 
 \begin_layout Standard
-The only open-source project, uses PHP and Javascript.
- The development seems discontinued.
+Carpool was the only open-source project, using PHP and Javascript.
+ The development was stuck at the research time.
+ The project is now closed.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1005,8 +1088,8 @@ http://goloco.org/
 \end_layout
 
 \begin_layout Standard
-A proprietary web application that also relies on Facebook.
- It uses a private payment system
+GoLoco is proprietary web application that also relies on Facebook.
+ It uses a private payment system.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1018,7 +1101,13 @@ http://www.ecolane.com/
 \end_layout
 
 \begin_layout Standard
-A proprietary solution, web-based, focused on security.
+Ir is a proprietary solution, web-based, focused on security.
+ It provides a customized Nokia touchscreen device.
+ Among the features, they declare that the device is capable of real-time
+ data communication, reports of arrivals and departures with time information,
+ device locking mechanisms, GPS location and direction, mileage tracking,
+ detailed trip information.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -1030,7 +1119,7 @@ http://www.dividetheride.com/
 \end_layout
 
 \begin_layout Standard
-A static, web-based solution organized around children activities.
+The project is a static, web-based solution organized around children activities.
  Families invite other trusted families to join their group.
  Groups get notifications when a ride is needed.
 \end_layout
@@ -1044,14 +1133,14 @@ http://www.icarpool.com
 \end_layout
 
 \begin_layout Standard
-A static, web-based system that does not require payments.
- Declares to use proprietary algorithms for ride matching.
+This application is a static, web-based system that does not require payments.
+ They declare to use advanced proprietary algorithms for ride matching.
  “High precision trip matching.
  helps you find the best carpool match.
  Find co-workers, neighbors and friends for carpool.
  Use for daily commute, recurring trips, long distance trips and events
  Plan ahead or use on-demand”.
- Matching criteria seem to include social relationships.
+ Matching criteria includes social relationships, but no details are given.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1063,9 +1152,10 @@ http://www.hoverport.org/
 \end_layout
 
 \begin_layout Standard
-A casual carpooling system using RFID technologies and an own credit system.
- Members are approved after verfication tests.
- Persons must meet at a location called “Hover Park” and are identified
+It is a casual carpooling system using RFID technologies and an own credit
+ system.
+ The members are approved after human verfication tests.
+ Participants must meet at a location called “Hover Park” and are identified
  by the RFID system.
  On exiting the Hover Park, the system recognizes driver and passengers
  and distributes credit points.
@@ -1083,13 +1173,15 @@ http://www.flinc.mobi/
 \end_layout
 
 \begin_layout Standard
-A Dynamic Carpooling system using smartphones (Android and Apple iPhone).
+Flinc is a dynamic carpooling system using smartphones (Android and Apple
+ iPhone).
  “Flinc connects navigation systems and mobile phones and arranges available
  seats within a few seconds - directly in the car and on the pavement.
  Flinc combines GPS and location-based capabilities with social networking
  to offer a dynamic and automated method of getting from one place to another.
  The service can be used on smartphones or on the PC or Mac, helping users
  create rides within a few seconds via an entirely automated process.”.
+ The system is currently under active development.
 \end_layout
 
 \begin_layout Subsection
@@ -1106,12 +1198,1510 @@ key "key-15"
 \end_inset
 
 .
- It has been decided to focus on technical aspects.
- Among them, it has been observed that the source code of the projects and
- the prototypes produced was not freely accessible by the general public.
+ We categorized the issues gathered from the state of the art and their
+ proposals in the following categories:
+\end_layout
+
+\begin_layout Itemize
+Interface Design - all issues related to graphical implementation of clients
+ and ease of use
+\end_layout
+
+\begin_layout Itemize
+Algorithms - the instructions regarding driver/passengers matching problems
+\end_layout
+
+\begin_layout Itemize
+Coordination - the aspects related on how to let people meet, authenticate
+ and coordinate.
+\end_layout
+
+\begin_layout Itemize
+Trustiness - the problems related on raising user confidence to dynamic
+ carpooling systems 
+\end_layout
+
+\begin_layout Itemize
+Safety - the issues regarding ensuring protection of users
+\end_layout
+
+\begin_layout Itemize
+Social Aspects - all the issues related to create social connections and
+ raising social capital in dynamic carpooling systems 
+\end_layout
+
+\begin_layout Itemize
+Reaching Critical Mass - the problems on reaching a sufficient amount of
+ persons using the system that would attract more other people
+\end_layout
+
+\begin_layout Itemize
+Incentives - all the political issues related to dynamic ridesharing systems
+\end_layout
+
+\begin_layout Itemize
+System Suggestions - everything else that we consider relevant for building
+ dynamic carpooling systems
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="12" columns="5">
+<features rotate="true">
+<column alignment="left" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Paper
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Interface Design
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Algorithms
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Coordination
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Trustiness
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-3"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Give start and ending points and clear indications.
+ Select what information to reveal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-4"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-5"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-6"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-10"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-0"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-11"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-12"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-13"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-14"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-15"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Paper Grid Outcomes: Interface Design, Algorithms, Coordination, Trustiness
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="12" columns="6">
+<features rotate="true">
+<column alignment="left" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Paper
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Safety
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Social Aspects
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Critical Mass
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Incentives
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Suggestions
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-3"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-4"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-5"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-6"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-10"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-0"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-11"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-12"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-13"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-14"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-15"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Paper Grid Outcomes: Safety, Social Aspects, Critical Mass, Incentives,
+ Suggestions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We decided to focus on technical aspects.
+ Among them, we observed that the source code of the projects and the prototypes
+ produced was not freely accessible by the general public.
+ There are no information regarding the servers, that are all proprietary
+ and obscured.
  Another issue seems related to a missing standardization of the protocols
  used.
- Therefore, every project started from zero and 
+ Therefore, every project started from zero, 
 \begin_inset Quotes eld
 \end_inset
 
