@@ -318,7 +318,7 @@ pagenumbering{arabic}
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Part
 Introduction
 \end_layout
 
@@ -444,7 +444,7 @@ There are many issues related to the implementation and the adoption of
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Part
 State of the art
 \end_layout
 
@@ -461,7 +461,7 @@ This section contains a summary of the state of the art regarding dynamic
  contribute in solving the problem of adopting dynamic ridesharing services.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Published Papers
 \end_layout
 
@@ -489,7 +489,7 @@ Graziotin, D.
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Sociotechnical support for Ride Sharing
 \end_layout
 
@@ -559,7 +559,7 @@ The paper talks about social capital impacts: there is the potential for
  capital.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Pilot Tests of Dynamic Ridesharing
 \end_layout
 
@@ -601,7 +601,7 @@ The paper adds the idea of saving money when parking.
  some interesting user stories.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 The smart Jitney: Rapid, Realistic Transport 
 \end_layout
 
@@ -630,7 +630,7 @@ The author suggests the installation of Auto Event Recorders on cars, enforcing
  to use the service, proposing a cooperative public development of the system.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Auction negotiation for mobile Rideshare service
 \end_layout
 
@@ -649,7 +649,7 @@ The paper proposes the use of Agents and complex algorithms for person matching
  and auction mechanisms.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Casual Carpooling enhanced
 \end_layout
 
@@ -672,7 +672,7 @@ The author thinks about areas without HOV lanes.
  for using the service than to build a HOV lane.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Empty seats travelling
 \end_layout
 
@@ -710,7 +710,7 @@ The paper notices that people are not widely encouraged to practice carpooling
  from existing ride share services to a fully automated systems.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Interactive systems for real time dynamic multi hop carpooling
 \end_layout
 
@@ -755,7 +755,7 @@ As security improvement, the paper suggests: the use of finger-prints, RFID,
  pictures, assigning random numbers to be used as passwords.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Instant Social Ride Sharing
 \end_layout
 
@@ -780,7 +780,7 @@ The paper proposes matching methodologies based on social connections.
  
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Combining Ridesharing & Social Networks
 \end_layout
 
@@ -838,7 +838,7 @@ The author asks for extra research on psychological factors that increase
  trust and perceived safety.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 SafeRide: Reducing Single Occupancy Vehicles 
 \end_layout
 
@@ -867,7 +867,7 @@ The paper lists some interesting user stories, as well as algorithms and
  requirements.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Current Trends in Dynamic Ridesharing, identification of Bottleneck Problems
  and Propositions of Solutions 
 \end_layout
@@ -901,7 +901,7 @@ TODO: add something else.
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Systems
 \end_layout
 
@@ -935,7 +935,7 @@ Graziotin, D.
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Carriva
 \end_layout
 
@@ -950,7 +950,7 @@ It is a proprietary solution using phone calls as communication system and
  
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Avego
 \end_layout
 
@@ -973,7 +973,7 @@ It is a proprietary application for Apple iPhone.
  2009 the service offered 5310 empty seats.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Carticipate
 \end_layout
 
@@ -997,7 +997,7 @@ a location based mobile social network for ride sharing, ride combining,
  According to the website, it is available on 59 countries.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Piggyback
 \end_layout
 
@@ -1020,7 +1020,7 @@ It is an Android application using a step-by-step approach (maximum one
  The application lets also plan rides using a static carpooling approach.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Aktalita 
 \end_layout
 
@@ -1039,7 +1039,7 @@ It is an under development application, supposed to be proprietary.
  and passengers”
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 RideGrid
 \end_layout
 
@@ -1065,7 +1065,7 @@ It uses an internal credit system.
  The client has an outdated classical Java Micro Edition interface.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Project Carpool
 \end_layout
 
@@ -1079,7 +1079,7 @@ Carpool was the only open-source project, using PHP and Javascript.
  The project is now closed.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 GoLoco
 \end_layout
 
@@ -1092,7 +1092,7 @@ GoLoco is proprietary web application that also relies on Facebook.
  It uses a private payment system.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Ecolane DRT
 \end_layout
 
@@ -1110,7 +1110,7 @@ Ir is a proprietary solution, web-based, focused on security.
  
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Divide The Ride
 \end_layout
 
@@ -1124,7 +1124,7 @@ The project is a static, web-based solution organized around children activities
  Groups get notifications when a ride is needed.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 iCarpool
 \end_layout
 
@@ -1143,7 +1143,7 @@ This application is a static, web-based system that does not require payments.
  Matching criteria includes social relationships, but no details are given.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Hover
 \end_layout
 
@@ -1164,7 +1164,7 @@ It is a casual carpooling system using RFID technologies and an own credit
  It also offer a guaranteed back-to-home system, by using taxis.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Flinc
 \end_layout
 
@@ -1184,7 +1184,7 @@ Flinc is a dynamic carpooling system using smartphones (Android and Apple
  The system is currently under active development.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Outcomes
 \end_layout
 
@@ -1246,15 +1246,16 @@ System Suggestions - everything else that we consider relevant for building
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="12" columns="4">
-<features rotate="true">
-<column alignment="left" valignment="top" width="0">
+<features islongtable="true">
+<column alignment="left" valignment="top" width="3cm">
 <column alignment="left" valignment="top" width="4cm">
 <column alignment="left" valignment="top" width="4cm">
 <column alignment="left" valignment="top" width="4cm">
@@ -1301,6 +1302,8 @@ Coordination
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-3"
@@ -1316,10 +1319,14 @@ key "key-3"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Give start and ending points and clear indications.
 \end_layout
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Select what information to reveal
 \end_layout
 
@@ -1349,6 +1356,8 @@ Select what information to reveal
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-4"
@@ -1364,6 +1373,8 @@ key "key-4"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Lots of flexible settings
 \end_layout
 
@@ -1382,6 +1393,8 @@ Lots of flexible settings
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Entries made hours before the ride, more static than dynamic
 \end_layout
 
@@ -1393,6 +1406,8 @@ Entries made hours before the ride, more static than dynamic
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-5"
@@ -1408,18 +1423,26 @@ key "key-5"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Levels of services: 
 \end_layout
 
 \begin_layout Plain Layout
+
+\size footnotesize
 - simple: just destination and pickup 
 \end_layout
 
 \begin_layout Plain Layout
+
+\size footnotesize
 - groups preferences (only women etc.) 
 \end_layout
 
 \begin_layout Plain Layout
+
+\size footnotesize
 - scheduling of rides
 \end_layout
 
@@ -1449,6 +1472,8 @@ Levels of services:
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-6"
@@ -1493,6 +1518,8 @@ key "key-6"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-10"
@@ -1526,6 +1553,8 @@ key "key-10"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 One-time registation process RFID devices for drivers and riders
 \end_layout
 
@@ -1537,6 +1566,8 @@ One-time registation process RFID devices for drivers and riders
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-0"
@@ -1581,6 +1612,8 @@ key "key-0"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-11"
@@ -1596,6 +1629,8 @@ key "key-11"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Some suggestions about easy of use
 \end_layout
 
@@ -1614,6 +1649,8 @@ Some suggestions about easy of use
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Built around PQOS (ie: driving away from destination but to a location that
  increases PQOS, like a subway station)
 \end_layout
@@ -1626,6 +1663,8 @@ Built around PQOS (ie: driving away from destination but to a location that
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-12"
@@ -1650,6 +1689,8 @@ key "key-12"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Given, built around social connections.
  Social network needed.
 \end_layout
@@ -1660,6 +1701,8 @@ Given, built around social connections.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Built around social connection between users
 \end_layout
 
@@ -1671,6 +1714,8 @@ Built around social connection between users
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-13"
@@ -1686,6 +1731,8 @@ key "key-13"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Simple registration system.
  In a second phase there is the link of social networks profiles, or manual
  fill Asks for a very simple UI
@@ -1717,6 +1764,8 @@ Simple registration system.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-14"
@@ -1741,6 +1790,8 @@ key "key-14"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Both data structures and Algorithms for matching are given
 \end_layout
 
@@ -1761,6 +1812,8 @@ Both data structures and Algorithms for matching are given
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-15"
@@ -1776,6 +1829,8 @@ key "key-15"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Must be similar simple and intuitive like Twitter.
  Parameters like “where are you going” are proposed to be as last time but
  modified easily.
@@ -1798,6 +1853,8 @@ Must be similar simple and intuitive like Twitter.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Just suggestions about the legal pick up points
 \end_layout
 
@@ -1830,6 +1887,7 @@ Paper Grid Outcomes: Interface Design, Algorithms, Coordination, Trustiness
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status open
@@ -1837,8 +1895,8 @@ status open
 \begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="12" columns="4">
-<features rotate="true">
-<column alignment="left" valignment="top" width="3cm">
+<features islongtable="true">
+<column alignment="left" valignment="top" width="0">
 <column alignment="left" valignment="top" width="3cm">
 <column alignment="left" valignment="top" width="3cm">
 <column alignment="left" valignment="top" width="3cm">
@@ -1885,6 +1943,8 @@ Social Aspects
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-3"
@@ -1909,6 +1969,8 @@ key "key-3"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Basic ideas authentication before the match: password / PIN monitor arrival
  at destination feedback system a la Ebay
 \end_layout
@@ -1919,6 +1981,8 @@ Basic ideas authentication before the match: password / PIN monitor arrival
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Illusion of private space is ok, but is also ok to break it.
  DCP has potential for creating new social connections Announcing matching
  items in profiles before the ride is a good idea Asks for research in social
@@ -1933,6 +1997,8 @@ Illusion of private space is ok, but is also ok to break it.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-4"
@@ -1957,6 +2023,8 @@ key "key-4"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 PIN created at registration on web page
 \end_layout
 
@@ -1966,6 +2034,8 @@ PIN created at registration on web page
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Idea of using social networks to allow car pooling on the fly
 \end_layout
 
@@ -1977,6 +2047,8 @@ Idea of using social networks to allow car pooling on the fly
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-5"
@@ -1992,6 +2064,8 @@ key "key-5"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Branding the idea: apply stickers on every car that participates.
  Limitation of drivers: age limits, extra driving tests, check on criminal
  records etc.
@@ -2003,6 +2077,8 @@ Branding the idea: apply stickers on every car that participates.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Auto Event Recorders on cars Emergency button on mobile phone, GPS Feedback
  system a la Ebay
 \end_layout
@@ -2024,6 +2100,8 @@ Auto Event Recorders on cars Emergency button on mobile phone, GPS Feedback
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-6"
@@ -2068,6 +2146,8 @@ key "key-6"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-10"
@@ -2083,6 +2163,8 @@ key "key-10"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 RFID, as carpooling activity is recorded by the system
 \end_layout
 
@@ -2092,6 +2174,8 @@ RFID, as carpooling activity is recorded by the system
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Everything built around RFID
 \end_layout
 
@@ -2112,6 +2196,8 @@ Everything built around RFID
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-0"
@@ -2127,6 +2213,8 @@ key "key-0"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Communities and governments should be involved in planning and implementation
  phases
 \end_layout
@@ -2137,6 +2225,8 @@ Communities and governments should be involved in planning and implementation
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Registered users only; Feedback system
 \end_layout
 
@@ -2146,6 +2236,8 @@ Registered users only; Feedback system
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Possibility to create social connections
 \end_layout
 
@@ -2157,6 +2249,8 @@ Possibility to create social connections
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-11"
@@ -2181,6 +2275,8 @@ key "key-11"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Proposes RFID, GPS Rating system based on more than one PQOS metrics.
  View vehicle and driver information before entering a vehicle.
  Displaying participants pictures.
@@ -2194,6 +2290,8 @@ Proposes RFID, GPS Rating system based on more than one PQOS metrics.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Multi-hop system is better than single hop: in single trip with 3 hops a
  passenger might meet 3 to 10 persons Passengers may be socially matched
  Suggests to link the application to social networks and use profile information
@@ -2208,6 +2306,8 @@ Multi-hop system is better than single hop: in single trip with 3 hops a
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-12"
@@ -2223,6 +2323,8 @@ key "key-12"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 The use of social networks should improve it
 \end_layout
 
@@ -2252,6 +2354,8 @@ The use of social networks should improve it
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-13"
@@ -2267,6 +2371,8 @@ key "key-13"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 People are ready to spend 17% more time to pickup a friend of the social
  network rather than a stranger
 \end_layout
@@ -2277,6 +2383,8 @@ People are ready to spend 17% more time to pickup a friend of the social
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Rating system GPS Asks for extra research
 \end_layout
 
@@ -2297,6 +2405,8 @@ Rating system GPS Asks for extra research
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-14"
@@ -2312,6 +2422,8 @@ key "key-14"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Suggests the social network way
 \end_layout
 
@@ -2321,6 +2433,8 @@ Suggests the social network way
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 GPS Help button Record of time and place, and sound Feedback system
 \end_layout
 
@@ -2341,6 +2455,8 @@ GPS Help button Record of time and place, and sound Feedback system
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-15"
@@ -2356,6 +2472,8 @@ key "key-15"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 It is necessary to market against negative prejudgments of people: ride-sharing
  is associated with unreliability, problems with passengers and crime.
  A Survey is proposed
@@ -2367,6 +2485,8 @@ It is necessary to market against negative prejudgments of people: ride-sharing
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Heavy issues are not frequent at all: problems are more related to reliability,
  politeness and customs.
  Major issue is not that ride-sharing is dangerous but people think it is
@@ -2415,15 +2535,16 @@ Paper Grid Outcomes: Safety, Social Aspects, Critical Mass, Incentives,
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="12" columns="4">
-<features rotate="true">
-<column alignment="left" valignment="top" width="3cm">
+<features islongtable="true">
+<column alignment="left" valignment="top" width="0">
 <column alignment="left" valignment="top" width="3cm">
 <column alignment="left" valignment="top" width="3cm">
 <column alignment="left" valignment="top" width="3cm">
@@ -2470,6 +2591,8 @@ Suggestions
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-3"
@@ -2503,10 +2626,14 @@ key "key-3"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Location awareness system
 \end_layout
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Use of mobile phones
 \end_layout
 
@@ -2518,6 +2645,8 @@ Use of mobile phones
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-4"
@@ -2533,6 +2662,8 @@ key "key-4"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Mass marketing Start-up incentives
 \end_layout
 
@@ -2542,6 +2673,8 @@ Mass marketing Start-up incentives
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 An institutional sponsor is needed.
  Parking spaces provided to participants
 \end_layout
@@ -2552,6 +2685,8 @@ An institutional sponsor is needed.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Web and mobile Ride requests submitted hours before actually needing them.
  A many-to-one system: all at a single destination
 \end_layout
@@ -2564,6 +2699,8 @@ Web and mobile Ride requests submitted hours before actually needing them.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-5"
@@ -2588,6 +2725,8 @@ key "key-5"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Cooperative public development of the system
 \end_layout
 
@@ -2597,6 +2736,8 @@ Cooperative public development of the system
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Web and mobile (phone call)
 \end_layout
 
@@ -2608,6 +2749,8 @@ Web and mobile (phone call)
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-6"
@@ -2652,6 +2795,8 @@ key "key-6"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-10"
@@ -2676,6 +2821,8 @@ key "key-10"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Employers should incentive employers Regional Transportation Boards
 \end_layout
 
@@ -2696,6 +2843,8 @@ Employers should incentive employers Regional Transportation Boards
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-0"
@@ -2711,6 +2860,8 @@ key "key-0"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Incremental service, starting from a thread of backwards compatible services
  (bus, taxi) Service should not introduce new devices for its use
 \end_layout
@@ -2721,6 +2872,8 @@ Incremental service, starting from a thread of backwards compatible services
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Find a way to make the service a business case Public incentives
 \end_layout
 
@@ -2730,6 +2883,8 @@ Find a way to make the service a business case Public incentives
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Mobile only GPS non-obtrusive system for authentication QOS measure needed
 \end_layout
 
@@ -2741,6 +2896,8 @@ Mobile only GPS non-obtrusive system for authentication QOS measure needed
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-11"
@@ -2756,6 +2913,8 @@ key "key-11"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Multi-hop system brings higher PQOS.
  Set of potential riders and drivers increases
 \end_layout
@@ -2766,6 +2925,8 @@ Multi-hop system brings higher PQOS.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Governments should be convinced and change laws to enforce carpooling
 \end_layout
 
@@ -2775,6 +2936,8 @@ Governments should be convinced and change laws to enforce carpooling
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Dynamic, multi-hop, real- time mobile system Minimize waiting times, one
  hop at a time
 \end_layout
@@ -2787,6 +2950,8 @@ Dynamic, multi-hop, real- time mobile system Minimize waiting times, one
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-12"
@@ -2820,11 +2985,15 @@ key "key-12"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Use of mobile phones and sms.
  Use of GPS.
 \end_layout
 
 \begin_layout Plain Layout
+
+\size footnotesize
 High-level description
 \end_layout
 
@@ -2836,6 +3005,8 @@ High-level description
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-13"
@@ -2851,6 +3022,8 @@ key "key-13"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Users should be involved in some parts of development process Asks for extra
  research
 \end_layout
@@ -2870,6 +3043,8 @@ Users should be involved in some parts of development process Asks for extra
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Mobile + web system that interacts with social networks profiles Use of
  Opensocial + other social network APIs High level description of the whole
  system
@@ -2883,6 +3058,8 @@ Mobile + web system that interacts with social networks profiles Use of
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-14"
@@ -2898,6 +3075,8 @@ key "key-14"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Market-formation problem: someone must discover a new, winning formula Start
  with an existing service, like taxis Find large employers Serve events
  (ie.
@@ -2910,6 +3089,8 @@ Market-formation problem: someone must discover a new, winning formula Start
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Money? Incentives from governments
 \end_layout
 
@@ -2919,6 +3100,8 @@ Money? Incentives from governments
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Very high-level Lots of Use Cases Detailed functional requirements Detailed
  non-functional requirements
 \end_layout
@@ -2931,6 +3114,8 @@ Very high-level Lots of Use Cases Detailed functional requirements Detailed
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-15"
@@ -2946,6 +3131,8 @@ key "key-15"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Main problem is to convince the user to use the system for the first time:
  marketing money is probably spent more efficiently by paying the user directly
  for the first X times Integration of public transport possibilities Implement
@@ -2959,6 +3146,8 @@ Main problem is to convince the user to use the system for the first time:
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Provide a free taxi of public transport ride in case of no return possibility
  (only for the first months) Include existing carsharing projects in the
  system startup Create an own currency system to be converted in real money
@@ -2971,6 +3160,8 @@ Provide a free taxi of public transport ride in case of no return possibility
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Mobile, GPS Multi-hop system
 \end_layout
 
@@ -2997,6 +3188,13 @@ Paper Grid Outcomes: Safety, Social Aspects, Critical Mass, Incentives,
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -3050,13 +3248,19 @@ Would act as a solid base for the creation of concrete projects.
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Part
 Dycapo
 \end_layout
 
 \begin_layout Standard
-In this section the outcomes of the dissertation are presented.
- Dycapo is the name given to a project aiming to share knowledge and outcomes
+In this section first present the project born to contain the research and
+ the implementation outcomes.
+ Then there will be an overview of our contributions to dynamic carpooling
+ research, that are are protocol and a server prototype.
+\end_layout
+
+\begin_layout Standard
+Dycapo is the name given to a project aiming to share knowledge and outcomes
  on dynamic carpooling.
  The information are created using a fully open and collaborative system.
  The website
@@ -3083,6 +3287,13 @@ MediaWiki - http://www.mediawiki.org/wiki/MediaWiki
 , freely accessible and discussable.
  The Wiki content and the source code are available under permissive and
  open licenses.
+ We used a blog and social networks to update in real-time about the status
+ of the researches and the development.
+ The website was opened on Oct.
+ 11 2009.
+ As of Sept.
+ 11 2010 we had 1617 visits and many e-mail contacts, about proposals of
+ collaboration and general interest.
 \end_layout
 
 \begin_layout Standard
@@ -3106,7 +3317,112 @@ Server - the prototype implementing dynamic carpooling functionalities and
 Client - will act as a start point for the clients implementing the protocol
 \end_layout
 
+\begin_layout Standard
+Our contributions are related to the first three issues: the research, the
+ protocol and the server.
+ A client is under development by a university colleague and will be object
+ of another Bachelor thesis.
+\end_layout
+
+\begin_layout Standard
+For better introducing the protocol and the server prototype, we now present
+ come user stories on system functionalities.
+ After we illustrate a high level description of the architecture of Dycapo
+ system.
+\end_layout
+
 \begin_layout Subsection
+User Stories
+\end_layout
+
+\begin_layout Paragraph*
+A simple trip
+\end_layout
+
+\begin_layout Standard
+Paul is in Via Roma, Bolzano, Italy.
+ He wants to move to the cemetary.
+ He takes out his smart-phone with GPS activated, opens his Dycapo client
+ and gives the desired destination.
+ Angela is travelling with her car along Corso Libertà, Bolzano.
+ Her destination is Laives, Italy, southern to the cimitery.
+ She receives a notification from her Dycapo client running on her smartphone,
+ located in a car docking station.
+ The notification contains Paul's position and she accepts his request.
+ The client, using the GPS-chip displayes the directions for reaching Paul.
+ Paul and Angela meet and share the trip, dividing the costs.
+\end_layout
+
+\begin_layout Paragraph*
+A planned concert 
+\end_layout
+
+\begin_layout Standard
+Anna lives in Trento, Italy.
+ In two days she will attend a concert in Milano, Italy.
+ She takes out her smart-phone running a Dycapo client and inputs her travel
+ intentions.
+ Two days after she starts her trip.
+ Just after her start, she discovers that Mary is in Rovereto, Italy and
+ would like to have a ride to Verona, Italy.
+ The clients make them meet and share part of Anna trip.
+ While driving Mary to Verona, Anna receives another ride request from John,
+ who is in Cremona, Italy and wants to travel to Milano, too.
+ Anna realizes that the deviation from her planned route is too much and
+ simply refuses the request.
+ Anna arrives to Milano and enjoys the concert.
+\end_layout
+
+\begin_layout Subsection
+Architecture
+\end_layout
+
+\begin_layout Standard
+Dycapo system follows the client-server model, in which a server receives
+ messages from clients (mobile phones) using a protocol, processes them
+ and returns them using the protocol again.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/architecture.jpg
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+High level architecture of Dycapo System
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 Protocol
 \end_layout
 
@@ -3170,7 +3486,7 @@ http://creativecommons.org/licenses/by-sa/3.0/legalcode
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Entities
 \end_layout
 
@@ -3244,7 +3560,7 @@ Search - helper object to construct the complex queries related to the search
  of a Trip
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Operations
 \end_layout
 
@@ -3330,7 +3646,7 @@ Interaction of two clients and Dycapo Server using Dycapo Protocol
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Server
 \end_layout
 
@@ -3372,7 +3688,7 @@ http://www.apache.org/licenses/LICENSE-2.0.html
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 General Architecture View
 \end_layout
 
@@ -3383,7 +3699,7 @@ General Architecture View
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Part
 Conclusions
 \end_layout
 
