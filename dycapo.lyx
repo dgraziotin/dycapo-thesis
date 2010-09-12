@@ -3343,13 +3343,15 @@ A simple trip
 Paul is in Via Roma, Bolzano, Italy.
  He wants to move to the cemetary.
  He takes out his smart-phone with GPS activated, opens his Dycapo client
- and gives the desired destination.
+ and gives the desired destination, therefore searching a trip.
  Angela is travelling with her car along Corso Libertà, Bolzano.
  Her destination is Laives, Italy, southern to the cimitery.
  She receives a notification from her Dycapo client running on her smartphone,
  located in a car docking station.
- The notification contains Paul's position and she accepts his request.
- The client, using the GPS-chip displayes the directions for reaching Paul.
+ The notification contains Paul's position and she accepts his participation
+ request.
+ The client displays the directions for reaching Paul, using the GPS-chip
+ .
  Paul and Angela meet and share the trip, dividing the costs.
 \end_layout
 
@@ -3386,6 +3388,7 @@ Dycapo system follows the client-server model, in which a server receives
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -3393,8 +3396,10 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename img/architecture.jpg
-	scale 60
+	filename img/architecture.png
+	width 90col%
+	height 90col%
+	keepAspectRatio
 
 \end_inset
 
@@ -3405,7 +3410,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-High level architecture of Dycapo System
+High level view of Dycapo components architecture
 \end_layout
 
 \end_inset
@@ -3427,30 +3432,11 @@ Protocol
 \end_layout
 
 \begin_layout Standard
-Dycapo Protocol is an open application-level protocol for enabling communication
- between dynamic (and static) carpooling servers and clients, using HTTP
- 
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-http://www.ietf.org/rfc/rfc2616.txt
-\end_layout
-
-\end_inset
-
- for operations and JSON 
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-http://www.ietf.org/rfc/rfc4627.txt
-\end_layout
-
-\end_inset
-
+Dycapo Protocol (also known as DycapoP) is an open application-level protocol
+ for enabling communication between dynamic (and static) carpooling servers
+ and clients, using HTTP for operations and JSON (JavaScript Object Notation)
  as data exchange format.
- It is inspired by OpenTrip Core
+ The protocol models are inspired by OpenTrip Core
 \begin_inset Foot
 status open
 
@@ -3472,8 +3458,8 @@ http://ridesharechoices.scripts.mit.edu/home/workshop/
 \end_inset
 
 .
- The protocol is released under Creative Commons Attribution-ShareAlike
- 3.0 Unported license
+ DycapoP is released under Creative Commons Attribution-ShareAlike 3.0 Unported
+ license
 \begin_inset Foot
 status open
 
@@ -3504,8 +3490,6 @@ http://www.ietf.org/rfc/rfc4287.txt
  format) have been extracted and represented using UML 2.1 Class diagrams.
  While proceeding and discussing the development of the server, those entities
  were extended and adapted.
- As discussed at the beginning of the next section, the entities were first
- encoded using XML-RPC data format, then JSON.
  The entities are represented in the Protocol using descriptive tables and
  real world code snippets.
  The Dycapo Protocol draft version of 
@@ -3528,36 +3512,414 @@ today
 The following are the Models of Dycapo Protocol:
 \end_layout
 
-\begin_layout Itemize
-Location - represents a geographical position 
+\begin_layout Paragraph
+Location
+\end_layout
+
+\begin_layout Standard
+A Location represents:
 \end_layout
 
 \begin_layout Itemize
-Person - a User of the system
+A geographical position, using human understandable attributes (like street,
+ town, postcode, region, subregion and country) or geolocation values such
+ as georss_point
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://www.georss.org/simple#Point
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-Trip - a single course of travel taken as part of one's duty, work, etc,
- offered by a Person.
+An interesting point from a Person's perspective, by setting attribute label
+ to values like 'home', 'work' etc.
 \end_layout
 
 \begin_layout Itemize
-Modality - a description about the mode of transportation being used by
- the Person offering a Trip
+A hop point in a Trip, by setting point and leaves values
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/location.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Location Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Person
+\end_layout
+
+\begin_layout Standard
+A Person represents a user of the system and contains useful information
+ for building social connections or search preferences.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/person.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Person Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Trip
+\end_layout
+
+\begin_layout Standard
+A Trip represents a single course of travel taken as part of one's duty,
+ work, etc, offered by a Person.
+ It is the most complex object of the Dycapo Protocol.
+ It contains all the information needed for doing operations with Trips.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/trip.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Trip Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Modality
+\end_layout
+
+\begin_layout Standard
+A Modality object is 
 \end_layout
 
 \begin_layout Itemize
-Preferences - the preferences of a Driver when performing a Trip
+A description of the mode of transportation being used by the Person offering
+ a Trip.
+ 
 \end_layout
 
 \begin_layout Itemize
-Participation - representing the fact of taking part in a Trip.
- Both a driver and passengers participate in a Trip.
+A description of the cost of the Trip
 \end_layout
 
-\begin_layout Itemize
-Search - helper object to construct the complex queries related to the search
- of a Trip
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/modality.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Modality Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Preferences
+\end_layout
+
+\begin_layout Standard
+A Preferences object represents the preferences of Driver when performing
+ a Trip, such as the age range of the Persons he will accept as passengers,
+ whether they can smoke during the Trip, etc.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/preferences.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Preferences Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Participation
+\end_layout
+
+\begin_layout Standard
+A Participation object represents the fact of taking part in a Trip.
+ The attribute status represents the status of a Participation, being it
+ a request, a refuse, a start etc.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/participation.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Participation Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The following picture represents the possible states of a Participation,
+ using a UML State Diagram.
+ For each transition, we report the value of attribute status and the HTTP
+ operation performed by the operation.
+ We also report those transitions that only the author of the Trip (i.e.
+ the driver) can cause.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/Driver_Passenger_Participation_states.jpeg
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Participation Status
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Search
+\end_layout
+
+\begin_layout Standard
+helper object to construct the complex queries related to the search of
+ a Trip
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/search.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Search Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -3608,8 +3970,8 @@ key "key-18"
 \end_layout
 
 \begin_layout Standard
-The following UML sequence diagram summarizes a full user story - the creation
- of a Trip, the participation of a passenger and its end.
+The UML sequence diagram in Figure 10 summarizes a full user story - the
+ creation of a Trip, the participation of a passenger and its end.
 \end_layout
 
 \begin_layout Standard
