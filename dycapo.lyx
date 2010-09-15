@@ -323,9 +323,10 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-Using a private car is a very convenient way of transportation system.
- Between year 2004 and 2009, the production of private vehicles has been
- of 295.216.282 units 
+Using a private car is a transportation system very common in industrialized
+ countries.
+ Between year 2004 and 2009, the worldwide production of new private vehicles
+ has been of 295 millions of units 
 \begin_inset Foot
 status collapsed
 
@@ -336,12 +337,14 @@ status collapsed
 
 \end_inset
 
- and As of 2004, there were 199M registered drivers
+ and, as of 2004, there were 199 millions registered drivers in the U.S.A.
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-http://www.fhwa.dot.gov/
+ (Accessed Sept.
+ 9 2010) http://www.fhwa.dot.gov/ [U.S.
+ Department of Transportation - Federal Highway Administration]
 \end_layout
 
 \end_inset
@@ -353,14 +356,14 @@ status open
 
 \begin_layout Plain Layout
 (Accessed Sept.
- 9 2010) http://oica.net/
+ 9 2010) http://oica.net/ [Organisation Internationale des Constructeurs
+ d’Automobile]
 \end_layout
 
 \end_inset
 
 .
- The availability of fuel is also highly affected by the number of cars
- used.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -375,34 +378,53 @@ key "key-0"
 \end_inset
 
 .
- Such an inefficient transportation system causes problems such as a waste
- of resources, in terms of gasoline and time.
- It causes pollutes in the air.
- It stresses the parking.
- It also provokes a loss in terms of social capital, as people miss an opportuni
-ty to meet and talk.
+ Private car travelling creates a number of different problems and societal
+ costs worldwide.
+ Environmentally, it is responsible for a wasteful use of a scarse and finite
+ resource, i.e.
+ oil, and causes unnecessary earth pollution.
+ The traffic caused by single occupancy vehicles causes traffic jams and
+ hugely increases the amount of time spent by people in queues on streets.
+ This is a unsavvy use of another scarse resource: time.
+ Moreover, the additional pollution creates health problems to millions
+ of individuals.
+ Lastly, lone drivers in separate cars miss opportunities to meet and talk
+ incurring in a loss of potential social capital.
 \end_layout
 
 \begin_layout Standard
-One solution is carpooling, i.e.
- the share of a private vehicle between one or more passengers.
- It reduces the costs involved in car travel by dividing costs such as as
- fuel, tolls, and car rental.
- It is also an environmentally friendly and sustainable way to transport
- people, as reducing the number of cars used, it reduces carbon emissions,
- traffic on the roads, and the need for parking spaces.
- Last but not least, it lets people meet and talk, rising social connections
- and social capital.
+One possible to all these problems is carpooling, i.e.
+ the act of sharing a trip on a private vehicle between one or more other
+ passengers.
+ Carpooling helps the environment by allowing to use oil wisely and to reduce
+ earth pollution and consequent health problems.
+ It reduces traffic and - consequently - time that people spend in their
+ cars.
+ Carpooling has also the potential of increasing social capital by letting
+ people meet and know each other.
 \end_layout
 
 \begin_layout Standard
-Dyamic Carpooling (also known as Dynamic Ridesharing, Instant Ridesharing
- and Agile Ridesharing) is a new implementation of Carpooling service which
- enables the formation of carpools on short notice.
- Dan Kirshner, one of the founders of this new concept, defines it as follows:
+Carpooling is not a widespread practice.
+ It gained government attention in the U.S.A.
+ but unfortunately not in EU.
+ There are already many systems facilitating the match between drivers and
+ passengers, most of them in form of bulletin board-like web-sites.
+ The intention of offering empty seats of a vehicle is usually announced
+ by a driver many days before the start of the trip.
+ The coordination between a driver and the passengers who are candidating
+ for sharing the trip with him/her are usually carried out by e-mails of
+ private messages in the web-site.
+ Therefore, we may see carpooling as a static way of sharing a trip.
 \end_layout
 
 \begin_layout Standard
+The availability of mobile devices connected to the Internet opens up possibilit
+ies for the formation of carpools in short notice, directly on streets.
+ This phenomenon is called Dyamic Carpooling (also known as Dynamic Ridesharing,
+ Instant Ridesharing and Agile Ridesharing).
+ Dan Kirshner, researcher in this field and maintainer of http://dynamicrideshar
+ing.org website defines it as follows: 
 \begin_inset Quotes eld
 \end_inset
 
@@ -431,12 +453,16 @@ Kirshner, D.
 \end_layout
 
 \begin_layout Standard
-There are many issues related to the implementation and the adoption of
- dynamic carpooling systems, discussed in the first section of this dissertation.
- Among them, our interest is to solve those related to technological aspects
- and our contribution will be presented afterwards, which is an attempt
- to provide the world a solid, open and collaborative base framework to
- start with when implementing such systems.
+Curently there are no dynamic carpooling systems widely used.
+ In fact, there are many problematic issues related to the implementation
+ and the adoption of dynamic carpooling systems.
+ We analyze them critically in Part II of this dissertation.
+ While we acknowledge all aspects are critical, we claim the basic technological
+ infrastructure is an important required and key building block.
+ In fact we decide to focus on the creation of a solid, open and collaborative
+ base framework for dynamic carpooling.
+ The design and implementation of a open protocol and an open-source server
+ are presented in Part III.
  
 \begin_inset Newpage pagebreak
 \end_inset
@@ -449,15 +475,14 @@ State of the art
 \end_layout
 
 \begin_layout Standard
-This section contains a summary of the state of the art regarding dynamic
- ridesharing.
+This part contains a summary of the state of the art regarding dynamic carpoolin
+g.
  It is divided in three parts.
- In the first part there is a summary of the published papers - in order
- of publication - and their contribution in deriving and solving problems
- about.
+ In the first section there is a summary of previously published papers,
+ in order of publication.
  Then we introduce a brief analysis of the deployed systems.
- In the last part we present the outcomes of the analysis of the whole state
- of the art and how we decided to move in order to provide a significant
+ In the last section we present the outcomes of the analysis of the whole
+ state of the art and how we decided to move in order to provide a significant
  contribute in solving the problem of adopting dynamic ridesharing services.
 \end_layout
 
@@ -466,27 +491,10 @@ Published Papers
 \end_layout
 
 \begin_layout Standard
-During the research phase eleven papers were analyzed to obtain the state
- of the art.
+During the research phase different papers were analyzed in order to obtain
+ the state of the art.
  In this section a brief summary of each paper is presented.
- The whole research results are available in the project website, Research
- section.
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Graziotin, D.
- (Accessed Sept.
- 5
-\begin_inset Formula $^{\text{th}}$
-\end_inset
-
-2010) - http://dycapo.org/Research
-\end_layout
-
-\end_inset
-
-
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -504,16 +512,18 @@ key "key-3"
 \end_layout
 
 \begin_layout Standard
-This paper lists barriers and changes to be done to reduce them.
- It reports about High Occupancy Vehicles (HOV) lane on streets of San Francisco
- and Oakland and complaints that there should be no fees on bridges for
- HOVs.
- The author suggests conventions between drivers and passengers (e.g.
+This paper lists barriers to dynamic carpooling adoption and possible actions
+ to reduce them.
+ It reports about High Occupancy Vehicles (HOV) lane - which are lanes dedicated
+ for people doing carpoling - on streets of San Francisco and Oakland and
+ complains that there should be no fees on bridges for HOVs.
+ The author suggests conventions developed between drivers and passengers
+ (e.g.
  pickup points near public transportation stops).
- Regarding security, the work suggests to give priority to female passengers,
+ Regarding security, the paper suggests to give priority to female passengers,
  to not leave them alone waiting for a ride.
  The paper reports that there are no stories about rape, kidnapping or murder
- and the most common problem is bad driving.
+ and the most common reported problem is bad driving.
 \end_layout
 
 \begin_layout Standard
@@ -521,8 +531,8 @@ There are suggestions on research needed:
 \end_layout
 
 \begin_layout Itemize
-Need of location awareness devices, because instant ridesharing is limited
- to fixed pickups and dropoff locations.
+Need of location-aware devices, because instant ridesharing is limited to
+ fixed pickups and dropoff locations.
  
 \end_layout
 
@@ -550,13 +560,10 @@ Safety and reputation system design: authenticate passenger and driver before
 \end_layout
 
 \begin_layout Standard
-The paper talks about social capital impacts: there is the potential for
- creating new social connections and also matching drivers and passengers
+The paper discusses about social capital impacts: there is the potential
+ for creating new social connections and also matching drivers and passengers
  according to their profiles creates bridging across class, race and religious
  views.
- An important area of research is document whether use of dynamic carpooling
- does create social connections and which of those connections provide social
- capital.
 \end_layout
 
 \begin_layout Subsection
@@ -597,7 +604,7 @@ Too few users.
 The paper adds the idea of saving money when parking.
  It also enforces the idea of using social networks to allow car pooling
  on the fly.
- The author imagines about using a web – and mobile service, also writing
+ The author envsions using a web – and mobile service, also introducing
  some interesting user stories.
 \end_layout
 
@@ -616,9 +623,9 @@ key "key-5"
 \end_layout
 
 \begin_layout Standard
-The work focuses on environmental benefits of dynamic carpooling.
- It asserts that dynamic car sharing would lower GHG emissions in a better
- way than electric/hydrogen/hybrid cars would do.
+The paper focuses on environmental benefits of dynamic carpooling.
+ It asserts that dynamic car sharing would lower greenhouse gas emissions
+ in a better way than electric/hydrogen/hybrid cars would do.
  It introduces the idea of Smart Jitney: an unlicensed car driving on a
  defined route according to a schedule.
 \end_layout
@@ -645,8 +652,8 @@ key "key-6"
 \end_layout
 
 \begin_layout Standard
-The paper proposes the use of Agents and complex algorithms for person matching
- and auction mechanisms.
+The paper proposes the use of agent-based systems powered auction mechanisms
+ for driver-passenger matching.
 \end_layout
 
 \begin_layout Subsection
@@ -664,11 +671,11 @@ key "key-10"
 \end_layout
 
 \begin_layout Standard
-The author thinks about areas without HOV lanes.
- He proposes the use of Radio Frequency IDentification chips to quickly
- identify passengers and drivers.
+The author considers areas without HOV lanes and proposes the use of Radio
+ Frequency IDentificatio (RFID) chips to quickly identify passengers and
+ drivers.
  Readers should be installed at common pick-up points.
- The paper complaints that it would cost less to pay passengers and drivers
+ The paper complains that it would cost less to pay passengers and drivers
  for using the service than to build a HOV lane.
 \end_layout
 
@@ -687,9 +694,10 @@ key "key-0"
 \end_layout
 
 \begin_layout Standard
-This paper suggests to use the phone as a mean of transport, creating a
- value in terms of a transport opportunity and communication.
- It points out some factors limiting carpooling arranged via websites: 
+This white paper by Nokia suggests to use the phone as a mean of transportation,
+ creating a value in terms of a transport opportunity.
+ It points out some factors limiting static carpooling, arranged via websites:
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -706,8 +714,8 @@ The paper notices that people are not widely encouraged to practice carpooling
  by local governments.
  It collects obstacles and success factors in terms of human sentences,
  and their solution.
- The author says that the challenge is in the definition of a path leading
- from existing ride share services to a fully automated systems.
+ The authors say that the challenge is in the definition of a path leading
+ from existing ride share services to a fully automated system.
 \end_layout
 
 \begin_layout Subsection
@@ -727,10 +735,10 @@ key "key-11"
 \begin_layout Standard
 The author proposes a dynamic multi-hop system, by dividing a passenger
  route into smaller segments being part of other trips.
- He complaints that Problems of static carpooling are that matching drivers
- and passengers based on their destinations limits the number of possible
- rides, and with high waiting times.
- Carpooling is static and does not lend itself well to ad hoc traveling.
+ The author claims that the problems of static carpooling are that matching
+ drivers and passengers based on their destinations limits the number of
+ possible rides, and with high waiting times.
+ Carpooling is static and does not adapt itself well to ad hoc traveling.
  The paper asks governments to integrate carpooling in laws and to push
  for its use.
  The author complaints that the perceived quality of service is increased
@@ -741,8 +749,8 @@ The author proposes a dynamic multi-hop system, by dividing a passenger
 \end_layout
 
 \begin_layout Standard
-The paper also speaks about social aspects: in a single trip with 3 hops
- a passenger might meet 3 to 10 people, therefore passengers may be socially
+The paper also addresses social aspects: in a single trip with 3 hops a
+ passenger might meet 3 to 10 people, therefore passengers may be socially
  matched.
  It suggests to link the application with some social networks like Facebook,
  MySpace and use profile information to match drivers and passengers.
@@ -770,13 +778,18 @@ key "key-12"
 \end_layout
 
 \begin_layout Standard
-The paper proposes matching methodologies based on social connections.
- It assumes there exist a social network database that is used to determine
- the strength of the social connection between passengers and drivers, to
- calculate a priority of match.
- It Gives some algorithms and SQL queries.
- The author assumes that there is already a large scale of users, and no
- barriers are taken into account.
+The paper proposes matching methodologies based on both a minimization of
+ detours and the maximization of social connections.
+ It assumes the existence of a social network data source in which users
+ are connected by means of groups, interests, etc.
+ In such a network, the number of relatively short paths between a driver
+ and a passenger indicates the strength of their social connection.
+\end_layout
+
+\begin_layout Standard
+It provides algorithms and SQL queries.
+ The authors assume that there is already a large scale of users, and no
+ barriers to adoption are taken into account.
  
 \end_layout
 
@@ -795,10 +808,10 @@ key "key-13"
 \end_layout
 
 \begin_layout Standard
-The author imagines a mobile and web system that interacts with social networks
- profiles that should improve security and trust by users.
+The author envisions a mobile and web system that interacts with social
+ networks profiles that should improve security and trust by users.
  Users can register to the system in a traditional way (e.g., by giving email,
- username, password), then complete their profiles by linking their account
+ username, password), then complete their profiles by linking their accounts
  to multiple existing social networks account, to fill the remaining fields.
  Otherwise, they have to fill the fields manually and verify their identity
  in more classical ways.
@@ -819,15 +832,17 @@ Google, MySpace et al.
 \end_inset
 
  as connection interface.
- An own rating system is also complained.
+ An own rating system is also complained, which keeps scores of persons.
+ Amongst the criteria are factors like reliability, safety and friendliness.
  
 \end_layout
 
 \begin_layout Standard
 It suggests the use of mobile systems, that should make use of GPS and creation
  of a match on the fly (real-time algorithms).
- The work provides some results of surveys: people are ready to spend 17%
- more time to pickup a friend of their social network rather than a stranger.
+ The paper provides some results of surveys: people are willing to loose
+ 23% more time to pickup a friend of their social network rather than a
+ stranger (6%).
  It also provides a high-level description of the system and implementation
  details.
  
@@ -902,7 +917,7 @@ TODO: add something else.
 \end_layout
 
 \begin_layout Section
-Systems
+Deployed Systems
 \end_layout
 
 \begin_layout Standard
@@ -916,23 +931,8 @@ After the theoretical research, also the existing systems were taken into
 \end_inset
 
 2010.
- Each text eclosed in double quotes is copied from the website of the applicatio
-n.
-\end_layout
-
-\begin_layout Standard
-For more information and a complete list, please see the Dycapo website
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Graziotin, D.
- - http://dycapo.org/Research/Systems_Analyzed
-\end_layout
-
-\end_inset
-
-
+ Each text enclosed in double quotes is cited verbatim from the website
+ of the application.
 \end_layout
 
 \begin_layout Subsection
@@ -960,7 +960,7 @@ http://www.avego.com
 
 \begin_layout Standard
 It is a proprietary application for Apple iPhone.
- It uses GPS technologies and presents a simple, intuitive useri interface.
+ It uses GPS technologies and presents a simple, intuitive user interface.
  It handles costs automatically.
  The passengers are not required to have an iPhone.
  It will offer information about public transports.
@@ -1185,12 +1185,12 @@ Flinc is a dynamic carpooling system using smartphones (Android and Apple
 \end_layout
 
 \begin_layout Section
-Outcomes
+Comparative Analysis of Dynamic Carpooling Issues
 \end_layout
 
 \begin_layout Standard
 The analysis of the state of the art brought some issues related to adopting
- Dynamic Carpooling systems, many of them recognized by 
+ Dynamic Carpooling systems, many of them recognized also by 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-15"
@@ -1217,7 +1217,7 @@ Coordination - the aspects related on how to let people meet, authenticate
 \end_layout
 
 \begin_layout Itemize
-Trustiness - the problems related on raising user confidence to dynamic
+Trustiness - the problems related on raising user confidence on dynamic
  carpooling systems 
 \end_layout
 
@@ -1236,12 +1236,21 @@ Reaching Critical Mass - the problems on reaching a sufficient amount of
 \end_layout
 
 \begin_layout Itemize
-Incentives - all the political issues related to dynamic ridesharing systems
+Incentives - all the political, motivational and economical issues related
+ to dynamic ridesharing systems
 \end_layout
 
 \begin_layout Itemize
 System Suggestions - everything else that we consider relevant for building
  dynamic carpooling systems
+\end_layout
+
+\begin_layout Standard
+In Table 1,2 and 3, for each category (columns) we list the suggestions
+ and interesting points made in the different research papers (rows).
+ Table 1,2,3 is our contribution rationalizing the many problematic issues
+ involved in the creation and deployment of dynamic carpooling systems and
+ in summarizing best practices and suggestions in how to deal with them.
 \end_layout
 
 \begin_layout Standard
@@ -3201,13 +3210,30 @@ Paper Grid Outcomes: Safety, Social Aspects, Critical Mass, Incentives,
 \end_layout
 
 \begin_layout Standard
-We decided to focus on technical aspects.
+Our rationalization of dynamic carpooling issues and possible solutions,
+ summarized in Table 1,2,3 shows how dynamic carpooling systems still have
+ many important open issues to be addressed and solved.
+ This fact explains the current absence of any dynamic carpooling system
+ deployed and used for real.
+ We decided to address the overall challenge from a very core point of view
+ and to focus on technical aspects.
  Among them, we observed that the source code of the projects and the prototypes
  produced was not freely accessible by the general public.
  There are no information regarding the servers, that are all proprietary
  and obscured.
  Another issue seems related to a missing standardization of the protocols
  used.
+ While, in order to overcome the 
+\begin_inset Quotes eld
+\end_inset
+
+reaching critical mass
+\begin_inset Quotes erd
+\end_inset
+
+ issue, we believe that it is important that providers of dynamic carpooling
+ services can exchange their data easily so that cross provider matchings
+ are possible.
  Therefore, every project started from zero, 
 \begin_inset Quotes eld
 \end_inset
@@ -3221,7 +3247,8 @@ reinventing the wheel
 \end_layout
 
 \begin_layout Standard
-Thus, the following decision was made: the introduction of:
+Based on this analysis, we decided to create to basic technological building
+ blocks:
 \end_layout
 
 \begin_layout Itemize
@@ -3234,11 +3261,14 @@ An open-source server prototype implementing the protocol
 \end_layout
 
 \begin_layout Standard
-Would act as a solid base for the creation of concrete projects.
- The openness of the research outcomes, the source-code and the protocol
- would more likely attract both the general and the specialized public to
- collaborate to the project.
- Therefore, the Dycapo project was born.
+We decided to release the protocol under Creative Commons License and to
+ release the source code as open-source because our goal is to fill a void
+ and providing a basic infrastructure that future providers of dynamic carpoolin
+g services can adopt, extend and in general build on.
+\end_layout
+
+\begin_layout Standard
+Therefore, the Dycapo project was born.
 \end_layout
 
 \begin_layout Standard
@@ -3249,31 +3279,15 @@ Would act as a solid base for the creation of concrete projects.
 \end_layout
 
 \begin_layout Part
-Dycapo
+Dynamic Carpooling Project: Dycapo
 \end_layout
 
 \begin_layout Standard
-In this section first present the project born to contain the research and
- the implementation outcomes.
- Then there will be an overview of our contributions to dynamic carpooling
- research, that are are protocol and a server prototype.
-\end_layout
-
-\begin_layout Standard
-Dycapo is the name given to a project aiming to share knowledge and outcomes
- on dynamic carpooling.
+Dycapo is the name given to a project aiming to share knowledge outcomes
+ and technological products on dynamic carpooling.
  The information are created using a fully open and collaborative system.
- The website
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-http://dycapo.org
-\end_layout
-
-\end_inset
-
- is the start point and the container of each project component.
+ The website, http://dycapo.org, is the start point and the container of
+ each project component.
  It is a Wiki
 \begin_inset Foot
 status open
@@ -3301,7 +3315,7 @@ The following are the components of Dycapo:
 \end_layout
 
 \begin_layout Itemize
-Research - all the theoretical knowledge summarized in Section 2
+Research - all the theoretical knowledge summarized in Part II
 \end_layout
 
 \begin_layout Itemize
@@ -3441,7 +3455,7 @@ Dycapo Protocol (also known as DycapoP) is an open application-level protocol
 status open
 
 \begin_layout Plain Layout
-http://opentrip.info/wiki/OpenTrip_Core
+http://opentrip.info/wiki/OpenTrip_C ore
 \end_layout
 
 \end_inset
@@ -3692,7 +3706,7 @@ Modality
 \end_layout
 
 \begin_layout Standard
-A Modality object is 
+A Modality object is:
 \end_layout
 
 \begin_layout Itemize
@@ -3702,7 +3716,7 @@ A description of the mode of transportation being used by the Person offering
 \end_layout
 
 \begin_layout Itemize
-A description of the cost of the Trip
+A representation for the cost of the Trip
 \end_layout
 
 \begin_layout Standard
@@ -3831,8 +3845,8 @@ Participation Model
 \end_layout
 
 \begin_layout Standard
-The following picture represents the possible states of a Participation,
- using a UML State Diagram.
+In Figure 8 we represent the possible states of a Participation, using a
+ UML State Diagram.
  For each transition, we report the value of attribute status and the HTTP
  operation performed by the operation.
  We also report those transitions that only the author of the Trip (i.e.
@@ -3879,8 +3893,11 @@ Search
 \end_layout
 
 \begin_layout Standard
-helper object to construct the complex queries related to the search of
- a Trip
+A Search is a helper object to construct the complex queries related to
+ the search of a Trip.
+ A client first posts a search object with the desired origin and destination.
+ The Server stores the object in a unique URL that the client can access
+ for retrieving the results of the search.
 \end_layout
 
 \begin_layout Standard
@@ -3927,23 +3944,7 @@ Operations
 \end_layout
 
 \begin_layout Standard
-The parallel development of the server and the complexity of the entities
- involved in the protocol lent to the decision to first use XML-RPC 
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-http://www.xmlrpc.com/spec
-\end_layout
-
-\end_inset
-
- to transport Dycapo Protocol objects in a Service-Oriented architecture.
- Moreover, it was easier for testing the application to both think and develop
- using services, therefore methods and actions.
- After reaching a considerable stable state of both the protocol definition
- and the server prototype, a switch to a complete Resource-Oriented architecture
- has been made, i.e.
+DycapoP is implemented using a resource oriented architecture, i.e.
  the definition of a full REST 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -3964,14 +3965,390 @@ key "key-18"
 \end_inset
 
 .
- They are available in Appendix A.
- This dissertation focuses on the implementation of the functionalities
- in the Server section.
+ For example, to retrieve the list of all the stored trips, a client must
+ perform the following HTTP request:
+\end_layout
+
+\begin_layout LyX-Code
+GET /api/trips/ HTTP/1.1 
+\end_layout
+
+\begin_layout LyX-Code
+Authorization: Basic cmlkZXIxOnBhc3N3b3Jk 
+\end_layout
+
+\begin_layout LyX-Code
+Host: 127.0.0.1 
 \end_layout
 
 \begin_layout Standard
-The UML sequence diagram in Figure 10 summarizes a full user story - the
- creation of a Trip, the participation of a passenger and its end.
+It is self-descriptive: a GET request of the collection of trips using HTTP
+ version 1.1.
+ The authorization line is present because in our implementation of the
+ protocol the authorization is done using HTTP Basic Authentication
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://www.ietf.org/rfc/rfc2617.txt
+\end_layout
+
+\end_inset
+
+.
+ The Host part is required by this HTTP version.
+\end_layout
+
+\begin_layout Standard
+The server will respond in the following way, using a HTTP response.
+\end_layout
+
+\begin_layout LyX-Code
+HTTP/1.1 200 OK
+\end_layout
+
+\begin_layout LyX-Code
+Date: Mon, 13 Sep 2010 14:35:26 GMT
+\end_layout
+
+\begin_layout LyX-Code
+Server: Apache/2.2.14 (Unix) mod_ssl/2.2.14 [..]
+\end_layout
+
+\begin_layout LyX-Code
+Vary: Authorization,Cookie 
+\end_layout
+
+\begin_layout LyX-Code
+Transfer-Encoding: chunked 
+\end_layout
+
+\begin_layout LyX-Code
+Content-Type: application/json; charset=utf-8 
+\end_layout
+
+\begin_layout LyX-Code
+X-Pad: avoid browser bug
+\end_layout
+
+\begin_layout LyX-Code
+922
+\end_layout
+
+\begin_layout LyX-Code
+[ { 
+\end_layout
+
+\begin_layout LyX-Code
+"updated": "2010-09-02 16:03:24", 
+\end_layout
+
+\begin_layout LyX-Code
+"participations": { "href": "http://127.0.0.1/api/trips/3/participations/"
+ },
+\end_layout
+
+\begin_layout LyX-Code
+"preferences": { 
+\end_layout
+
+\begin_deeper
+\begin_layout LyX-Code
+"nonsmoking": false,
+\end_layout
+
+\begin_layout LyX-Code
+"gender": "", 
+\end_layout
+
+\begin_layout LyX-Code
+"ride": false,
+\end_layout
+
+\begin_layout LyX-Code
+"drive": false,
+\end_layout
+
+\begin_layout LyX-Code
+"href": "http://127.0.0.1/api/trips/4/preferences/",
+\end_layout
+
+\begin_layout LyX-Code
+"age": "18-30"
+\end_layout
+
+\end_deeper
+\begin_layout LyX-Code
+},
+\end_layout
+
+\begin_layout LyX-Code
+"author": { 
+\end_layout
+
+\begin_deeper
+\begin_layout LyX-Code
+"username": "driver1",
+\end_layout
+
+\begin_layout LyX-Code
+"gender": "M",
+\end_layout
+
+\begin_layout LyX-Code
+"href": "http://127.0.0.1/api/persons/driver1/" 
+\end_layout
+
+\end_deeper
+\begin_layout LyX-Code
+},
+\end_layout
+
+\begin_layout LyX-Code
+"expires": "2010-09-05 16:03:05", 
+\end_layout
+
+\begin_layout LyX-Code
+"locations": [ { 
+\end_layout
+
+\begin_deeper
+\begin_layout LyX-Code
+"town": "Bolzano", 
+\end_layout
+
+\begin_layout LyX-Code
+"point": "orig", 
+\end_layout
+
+\begin_layout LyX-Code
+"href": "http://127.0.0.1/api/trips/3/locations/",
+\end_layout
+
+\begin_layout LyX-Code
+"country": "",
+\end_layout
+
+\begin_layout LyX-Code
+"region": "",
+\end_layout
+
+\begin_layout LyX-Code
+"subregion": "",
+\end_layout
+
+\begin_layout LyX-Code
+"days": "",
+\end_layout
+
+\begin_layout LyX-Code
+"label": "Work",
+\end_layout
+
+\begin_layout LyX-Code
+"street": "Rom Strasse",
+\end_layout
+
+\begin_layout LyX-Code
+"postcode": 39100,
+\end_layout
+
+\begin_layout LyX-Code
+"offset": 150,
+\end_layout
+
+\begin_layout LyX-Code
+"leaves": "2010-09-02 16:02:22", 
+\end_layout
+
+\begin_layout LyX-Code
+"recurs": "", 
+\end_layout
+
+\begin_layout LyX-Code
+"georss_point": "46.490200 11.342294"
+\end_layout
+
+\end_deeper
+\begin_layout LyX-Code
+}, { 
+\end_layout
+
+\begin_deeper
+\begin_layout LyX-Code
+"town": "Bolzano",
+\end_layout
+
+\begin_layout LyX-Code
+"point": "dest",
+\end_layout
+
+\begin_layout LyX-Code
+"href": "http://127.0.0.1/api/trips/3/locations/",
+\end_layout
+
+\begin_layout LyX-Code
+"country": "", 
+\end_layout
+
+\begin_layout LyX-Code
+"region": "",
+\end_layout
+
+\begin_layout LyX-Code
+"subregion": "", 
+\end_layout
+
+\begin_layout LyX-Code
+"days": "", 
+\end_layout
+
+\begin_layout LyX-Code
+"label": "Work",
+\end_layout
+
+\begin_layout LyX-Code
+"street": "Piazza della Vittoria, 1",
+\end_layout
+
+\begin_layout LyX-Code
+"postcode": 39100,
+\end_layout
+
+\begin_layout LyX-Code
+"offset": 150,
+\end_layout
+
+\begin_layout LyX-Code
+"leaves": "2010-09-02 16:02:22",
+\end_layout
+
+\begin_layout LyX-Code
+"recurs": "",
+\end_layout
+
+\begin_layout LyX-Code
+"georss_point": "46.500740 11.345073"
+\end_layout
+
+\end_deeper
+\begin_layout LyX-Code
+} ],
+\end_layout
+
+\begin_layout LyX-Code
+"href": "http://127.0.0.1/api/trips/3/", 
+\end_layout
+
+\begin_layout LyX-Code
+"published": "2010-09-02 16:03:05", 
+\end_layout
+
+\begin_layout LyX-Code
+"modality": { 
+\end_layout
+
+\begin_deeper
+\begin_layout LyX-Code
+"kind": "auto",
+\end_layout
+
+\begin_layout LyX-Code
+"capacity": 4,
+\end_layout
+
+\begin_layout LyX-Code
+"lic": "",
+\end_layout
+
+\begin_layout LyX-Code
+"color": "",
+\end_layout
+
+\begin_layout LyX-Code
+"make": "Ford",
+\end_layout
+
+\begin_layout LyX-Code
+"vacancy": 1,
+\end_layout
+
+\begin_layout LyX-Code
+"cost": 0.0, 
+\end_layout
+
+\begin_layout LyX-Code
+"href": "http://127.0.0.1/api/trips/3/modality/",
+\end_layout
+
+\begin_layout LyX-Code
+"year": 0, 
+\end_layout
+
+\begin_layout LyX-Code
+"model_name": "Fiesta" 
+\end_layout
+
+\begin_layout LyX-Code
+} 
+\end_layout
+
+\end_deeper
+\begin_layout LyX-Code
+} ]
+\end_layout
+
+\begin_layout Standard
+The first lines are common HTTP response parts.
+ The status line is a HTTP 200 ok, specifying that the request has been
+ successful.
+ The Content-Type header informs that the server is returning in JSON format
+ that we now briefly analyze.
+ What is returned in this example is an array of Trip objects, enclosed
+ in square brackets.
+ It currently contains just one Trip object, enclosed in curly brackets.
+ Each Trip attribute is in the form of: 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+attribute name
+\begin_inset Quotes erd
+\end_inset
+
+ : attribute-value
+\emph default
+.
+ All attributes are separated by a comma.
+ Some members have simple value types like boolean, number and string, e.g.
+ published, href.
+ Other attributes have complex objects as values, e.g.
+ modality, preferences.
+\end_layout
+
+\begin_layout Standard
+The protocol operations are available in Appendix A.
+ This dissertation focuses on the implementation of the functionalities
+ in Part IV.
+\end_layout
+
+\begin_layout Standard
+The UML 2.1 sequence diagram in Figure 10 summarizes a full user story -
+ the creation of a Trip, the participation of a passenger and its end.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Describe high level the picture
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4013,8 +4390,8 @@ Server
 \end_layout
 
 \begin_layout Standard
-Dycapo Server is a software built using first throwaway then evolutionary
- prototyping - as defined by 
+Dycapo Server (also known as DycapoS) is a software built using first throwaway
+ then evolutionary prototyping - as defined by 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-2"
@@ -4023,11 +4400,12 @@ key "key-2"
 
  to demonstrate and support the definition of a standard protocol for dynamic
  carpooling.
- 
+ In this part we describe the software components, the enabling technologies,
+ the models and the functionalities.
 \end_layout
 
 \begin_layout Standard
-The source-code is available in an open GIT repository 
+DycapoS source-code is available in an open GIT repository 
 \begin_inset Foot
 status open
 
@@ -4051,7 +4429,111 @@ http://www.apache.org/licenses/LICENSE-2.0.html
 \end_layout
 
 \begin_layout Subsection
-General Architecture View
+Components
+\end_layout
+
+\begin_layout Standard
+Dycapo Server is written using Python programming language, which allows
+ a partitioning of a software into modules and packages.
+ A module is a component providing execution statements and definition of
+ functions, variables, classes, etc.
+ Each module correspond to a single Python file.
+ A module has its own private symbol table.
+ A package is a set of modules or other sub-packages, implemented as a directory.
+ Dycapo Server is organized using separation of concerns, each concern held
+ in a separate package.
+ 
+\end_layout
+
+\begin_layout Standard
+We represent in Figure 11 a high-level overview of Dycapo Server components,
+ here described:
+\end_layout
+
+\begin_layout Itemize
+rest - this module holds all the wrappers of the resources exposed to the
+ public using REST architecture.
+\end_layout
+
+\begin_layout Itemize
+piston - this module holds an open-source framework that lets us create
+ application programming interfaces implemented with RESTful principles
+\end_layout
+
+\begin_layout Itemize
+server - 
+\end_layout
+
+\begin_layout Itemize
+geopy - in this module we have a geocoding library for Python for our matching
+ algorithm and for completing Location objects when received from clients
+\end_layout
+
+\begin_layout Itemize
+tests - 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/Dycapo_Server_components.jpg
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Dycapo Server components
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Enabling Technologies
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Python, Django, Apache, Postgresql, Geopy, Piston, Py.test
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Models
+\end_layout
+
+\begin_layout Subsection
+Functionalities
 \end_layout
 
 \begin_layout Standard
