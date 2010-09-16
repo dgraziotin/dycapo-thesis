@@ -1,0 +1,3648 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://portal.acm.org/citation.cfm?id=932295">
+<meta name="wpd_url" content="http://portal.acm.org/citation.cfm?id=932295">
+<meta name="wpd_date" content="2010-08-15T16:40Z">
+
+
+
+
+
+	
+		
+		
+
+
+ 
+
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+	
+	  	
+		
+			
+		
+	
+	
+	
+	
+	  	
+		
+			
+		
+	
+	
+
+
+
+   
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 	
+	
+	
+		
+		
+		
+
+        
+        		
+	
+	
+	
+	
+	
+	
+		
+	
+	
+		
+		
+		
+					
+			
+				
+				  	
+				
+			
+			
+			
+			
+				
+		    
+			
+			
+
+
+
+	
+
+
+			
+			
+		
+		
+		
+		
+		
+		
+		
+	 
+
+
+
+	
+
+  	
+	
+	  	
+	
+
+
+
+
+
+
+
+	
+	
+	
+	
+	  	
+	
+	
+	
+        
+		
+	
+	
+	
+		
+  
+
+
+	
+	
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 	
+ 	
+	
+
+
+
+
+
+
+
+
+<title>Architectural styles and the design of network-based software architectures</title>
+
+ 
+<script language="JavaScript">
+
+ /* <!-- Begin
+	if(document.layers || document.all) {
+	a = 1;
+	setInterval("Jump()", 10);
+	}
+	function Jump() {
+	a = a + 1;
+	//self.moveBy((Math.random() * a * 2 - a), (Math.random() * a * 2) - a);
+	}
+//  End --> */
+</script>
+
+
+
+
+
+
+
+
+	
+	
+		
+ 		
+			
+				
+				
+				  	
+					
+		
+	
+  
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	 
+	
+	
+	
+	
+	
+	
+
+
+
+ 
+ 
+
+
+
+
+
+	
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<link rel="stylesheet" type="text/css" href="citation.css" media="all">
+</head>
+<body onload="window.focus(); " bgcolor="#ffffff">
+<div align="center">
+<a name="CIT"></a>
+<table border="0" cellpadding="0" cellspacing="0" width="85%">
+<tbody><tr>
+<td>
+
+
+	
+		
+				
+				
+					
+				  
+		
+	 
+
+
+
+
+
+
+
+
+
+	
+		
+	  
+		
+
+	
+
+
+
+	
+
+
+	
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr valign="top">
+		<td class="small-link-text" align="center" background="about:blank?horiz-bar.jpg" width="1%"><img src="logo_acm_portal2.jpg" alt="ACM Portal" usemap="#PORT" border="0" height="54" width="263">
+			
+				<font color="white">
+
+				
+					HeBIS:&nbsp;Freie Universitaet Bozen
+				  
+				</font>
+			  
+		</td>
+		<td class="small-link-text" align="left" width="99%">
+			<table border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td>&nbsp;</td>
+				
+					<td class="small-link-text"><a href="https://campus.acm.org/Public/login_genpubqj.cfm?rdr=http://portal.acm.org/citation.cfm?id=932295&promo=QJPUB&offering=200&form_type=PUB&CFID=104666470&CFTOKEN=59579742" class="small-link-text">Subscribe</a><span class="small-link-text">&nbsp;(Full Service)</span>&nbsp;&nbsp;&nbsp;</td>
+					<td class="small-link-text"><a href="https://portal.acm.org/poplogin.cfm?dl=GUIDE&coll=GUIDE&want_href=citation%2Ecfm%3Fid%3D932295%26CFID%3D104666470%26CFTOKEN%3D59579742&CFID=104666470&CFTOKEN=59579742" class="small-link-text">Register</a><span class="small-link-text">&nbsp;(Limited Service, <font color="Red">Free</font>)</span>&nbsp;&nbsp;&nbsp;</td>
+				
+				<td class="small-link-text" valign="bot">
+					
+					
+		 					<a href="https://portal.acm.org/poplogin.cfm?dl=GUIDE&coll=GUIDE&want_href=citation%2Ecfm%3Fid%3D932295%26CFID%3D104666470%26CFTOKEN%3D59579742&CFID=104666470&CFTOKEN=59579742" class="small-link-text">Login</a>
+					
+				</td>			
+			</tr>
+			</tbody></table>
+			
+			
+			
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				
+					
+					
+					     
+					
+					<form name="qiksearch" action="http://portal.acm.org/results.cfm?coll=GUIDE&dl=GUIDE&CFID=104666470&CFTOKEN=59579742" method="post"></form>
+					<tbody><tr>
+						<td height="5"><img src="blanks.gif" alt="" border="0" height="1" width="1"></td>
+					</tr>
+					<input name="parser" value="Internet" type="hidden">
+					<tr>
+						<td class="small-link-text">&nbsp;</td>
+						<td class="small-link-text">
+							 
+							  	
+							
+							
+							
+							<b>Search:</b>&nbsp;&nbsp;&nbsp;<input name="whichDL" value="acm" type="Radio">The ACM Digital Library&nbsp;&nbsp;&nbsp;<input name="whichDL" value="guide" checked="checked" type="Radio">The Guide
+
+							
+							<br><input class="pubdescr" name="query" size="60" value=" " type="Text">&nbsp;&nbsp;
+							<input alt="Search" name="Go" src="search_small.jpg" border="0" type="Image">
+<script type="text/javascript" src="wz_tooltip.js"></script> 
+
+
+						</td>
+					</tr>
+
+					
+				
+			</tbody></table>
+
+			
+		</td>
+	<!-- top nav END -->
+	</tr>
+	</tbody></table>
+	
+
+	<table border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td height="12"><img src="blanks.gif" alt="" border="0" height="1" width="1"></td>
+	</tr>
+	</tbody></table>
+
+<map name="PORT"> 
+  <area shape="rect" coords="1,1,55,60" href="http://www.acm.org/" alt="ACM Home Page">
+  <area shape="rect" coords="65,1,300,78" href="http://portal.acm.org/portal.cfm?coll=GUIDE&dl=GUIDE&CFID=104666470&CFTOKEN=59579742">
+</map>
+
+	
+
+<table align="left" border="0" width="100%">
+	<col width="40%">
+	<col width="60%">
+	<tbody><tr>
+		<td>
+			
+				<a href="http://portal.acm.org/guide.cfm?coll=GUIDE&dl=GUIDE&CFID=104666470&CFTOKEN=59579742"><img src="acm_guide_bar_large2.jpg" alt="" border="0" height="25" width="350"></a>
+			
+		</td>
+ 		<td class="small-text" align="center">
+			<img src="feedback.gif" alt="Please provide us with feedback." border="0" height="19" width="20">&nbsp;<a href="http://portal.acm.org/feedback.cfm?CFID=104666470&CFTOKEN=59579742">Feedback</a>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" class="medium-text" style="padding-top: 20px; padding-bottom: 20px;" height="6">
+         <a title="beta version" href="http://portal.acm.org/beta/citation.cfm?id=932295"><img style="vertical-align: middle;" src="acmdl_symbol_new.jpg" alt="Digital Library logo" border="0"></a>Take a look at the new version of this page: [ <a title="beta version" href="http://portal.acm.org/beta/citation.cfm?id=932295">beta version</a> ]. 
+        Tell us what you think.
+		</td>
+	</tr>
+</tbody></table>
+</td>
+</tr>
+
+
+ 	
+
+
+
+
+<tr>
+	<td colspan="3" background="about:blank?horiz-bar-long.jpg" height="1" valign="top"></td>
+</tr>
+
+
+
+
+
+<tr>
+<td class="small-text">
+	<table border="0" cellpadding="2" width="100%">
+		<col width="1%">
+		<col width="8%">
+		<col width="91%">
+	<tbody><tr>
+		<td class="medium-text" colspan="3"><strong>Architectural styles and the design of network-based software architectures</strong></td>
+	</tr>
+			
+	
+		<tr valign="top">
+			
+			
+		</tr>
+		
+		
+		
+			<tr valign="top">
+				
+				 	<td>&nbsp;</td>
+				
+				<td class="smaller-text" colspan="2">
+						
+						
+					   			
+								    
+								
+						   		<table><tbody><tr><td><a href="http://wwwlib.umi.com/dissertations/fullcit/9980887"><img src="proquest_logo.gif" alt="Purchase a copy" border="0" height="32" width="107"></a></td><td class="smaller-text" valign="middle"><a href="http://wwwlib.umi.com/dissertations/fullcit/9980887">Purchase a copy</a></td></tr></tbody></table>
+						   
+					    
+					   
+					   
+					   
+						<br>
+						
+						
+						
+						
+				</td>
+			</tr>
+		
+		
+		<tr valign="top">
+			
+            
+            
+                
+            
+                
+            
+            
+            
+            
+		</tr>
+
+		<tr valign="top">
+			<td class="small-text"><strong>Source</strong>
+				
+				
+						
+				
+				
+					
+
+					
+				
+				
+			</td>
+			<td class="small-text" colspan="2">
+			
+								
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+										
+								
+		
+
+		
+		<div class="medium-text">
+			
+			
+			
+		</div>
+		
+		
+			
+			
+			
+		  
+
+			
+			
+			<div class="small-text">
+
+				 Pages: 162&nbsp;&nbsp;
+			</div>
+					
+			
+			
+			
+				<div class="small-text">
+
+					Year of Publication:&nbsp;2000
+				</div>
+			
+					
+			
+				<div class="small-text">
+
+					
+					  	
+					    
+					
+					ISBN:0-599-87118-0,&nbsp;Order Number:AAI9980887
+				</div>
+				
+
+			
+			
+				
+					
+					
+					
+				
+			
+			
+		
+			 
+			  	
+			 
+			 
+		
+		
+		
+			
+				
+			</td>
+		</tr>
+		
+		
+		
+			<tr valign="top">
+				<td class="small-text">							
+										  	<strong>Authors</strong>
+										
+				</td>
+				
+				
+					
+					
+				<td colspan="2">
+				<div class="authors">
+					<table cellpadding="0" cellspacing="0">		
+					
+							<tbody><tr>
+								<td class="small-text">
+									
+									  	<a href="http://portal.acm.org/author_page.cfm?id=81100283787&coll=GUIDE&dl=GUIDE&trk=0&CFID=104666470&CFTOKEN=59579742" target="_self">Roy Thomas Fielding</a>
+									
+									
+
+ 									 
+										
+										
+										
+										
+							    </td>
+								<td class="small-text">
+										
+								</td>
+							</tr>
+					
+					</tbody></table>	
+				</div>
+				</td>
+			</tr>
+			
+			<tr valign="top">
+				<td class="small-text">							
+										  	<strong>Chairs</strong>
+										
+				</td>
+				
+				
+					
+					
+				<td colspan="2">
+				<div class="authors">
+					<table cellpadding="0" cellspacing="0">		
+					
+							<tbody><tr>
+								<td class="small-text">
+									
+									  	<a href="http://portal.acm.org/author_page.cfm?id=81452609528&coll=GUIDE&dl=GUIDE&trk=0&CFID=104666470&CFTOKEN=59579742" target="_self">Richard N. Taylor</a>
+									
+									
+
+ 									 
+										
+										
+										
+										
+							    </td>
+								<td class="small-text">
+										
+								</td>
+							</tr>
+					
+					</tbody></table>	
+				</div>
+				</td>
+			</tr>
+			
+		
+		
+		
+	    
+
+		
+		
+		
+		
+			
+		
+		
+		
+		
+			
+					<tr valign="top">
+						<td class="small-text"><strong>Publisher</strong></td>
+						<td colspan="2">
+							<div class="publishers">
+
+									
+									  	University of California, Irvine&nbsp;
+									
+									
+							</div>
+						</td>
+					</tr>
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+					<tr valign="top">
+						<td class="small-text"><strong>Bibliometrics</strong></td>
+						<td colspan="2">
+							<div class="publishers">
+
+									Downloads (6 Weeks): n/a,&nbsp;&nbsp;  Downloads (12 Months): n/a,&nbsp;&nbsp;  Citation Count: 140
+							</div>
+						</td>
+					</tr>
+			
+		
+		
+		
+		
+		</tbody></table>
+	
+ 
+ 
+  
+ 		
+</td>
+</tr>
+
+
+<tr>
+<td>
+
+<!-- third main table: main content START -->
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr>
+		<td height="6"><img src="blanks.gif" alt="" border="0" height="1" width="1"></td>
+	</tr>
+	<tr>
+		<td colspan="4" background="about:blank?horiz-bar-long.jpg" height="1" valign="top"></td>
+	</tr>
+	<tr>
+		<td height="6"><img src="blanks.gif" alt="" border="0" height="1" width="1"></td>
+	</tr>
+
+	
+
+	<tr valign="top">
+	<!-- buttons -->
+		<td colspan="4" width="100%">
+	    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<col width="22%">
+	    <col width="78%">
+		<tbody><tr>
+			<td class="small-text"><b>Additional Information:</b></td>
+			<td>
+			<p class="small-text">
+				
+				
+				
+				
+				
+				
+					<a href="http://portal.acm.org/citation.cfm?id=932295#citedby">cited by</a>&nbsp;&nbsp;
+				
+				
+				
+				
+				
+						<a href="http://portal.acm.org/citation.cfm?id=932295#collab">collaborative colleagues</a>&nbsp;&nbsp;
+				
+				
+				</p>
+			</td>
+		</tr>
+		</tbody></table>
+		</td>
+	</tr>
+	<tr>
+		<td height="6"><img src="blanks.gif" alt="" border="0" height="1" width="1"></td>
+	</tr>
+	
+	<tr valign="top">
+	<!-- buttons -->
+		<form action="http://portal.acm.org/citation.cfm?id=932295" name="popbinder"></form>
+		<td colspan="4" width="100%">
+		
+		<table border="0" cellpadding="2" cellspacing="0" width="100%">
+		  <col width="22%">
+		  <col width="78%">
+		  <tbody><tr valign="top">
+		  	<td class="small-text" style="padding-top: 0.75em;"><b>Tools and Actions:</b></td>
+			<td style="padding-top: 0.75em;">
+			
+				
+					
+					
+					 
+					 
+					 
+				
+				
+							
+				
+			  
+			
+			
+			
+
+			
+			
+		    
+			
+			<a href="http://www.reviews.com/reviewer/quickreview/frameset_toplevel.cfm?bib_id=932295" target="reviews" class="small-link-text">Review this Doctoral Thesis</a>&nbsp;&nbsp;
+			<div style="margin-top: 0.5em; margin-bottom: 0pt;">
+			
+			 	<a href="http://portal.acm.org/To%20use%20this%20Feature,%20you%20must%20login%20with%20your%20personal%20ACM%20Web%20Account." class="small-link-text">
+
+				Save this Doctoral Thesis to a Binder</a><img src="blanks.gif" name="saved" border="0">
+			
+			&nbsp;&nbsp;
+			<span class="small-text">Display Formats:</span>
+			<a href="http://portal.acm.org/popBibTex.cfm?id=932295&ids=932295&types=d_thesis&reqtype=d_thesis&coll=GUIDE&dl=GUIDE&CFID=104666470&CFTOKEN=59579742" class="small-link-text">
+
+			BibTeX</a>&nbsp;
+
+			<a href="http://portal.acm.org/testpopendnotes.cfm?id=932295&ids=932295&types=d_thesis&reqtype=d_thesis&coll=GUIDE&dl=GUIDE&CFID=104666470&CFTOKEN=59579742" class="small-link-text">
+
+			EndNote</a>
+
+			
+			 
+				<a href="http://portal.acm.org/popacmref.cfm?id=932295&ids=932295&types=d_thesis&reqtype=d_thesis&coll=GUIDE&dl=GUIDE&CFID=104666470&CFTOKEN=59579742" class="small-link-text">
+
+			ACM Ref</a>
+			
+			
+			&nbsp;&nbsp;				
+			
+			</div>
+			
+			
+			
+			
+			</td>
+		</tr>
+		<tr>
+			<td height="10"><img src="blanks.gif" alt="" border="0" height="1" width="1"></td>
+		</tr>
+		
+		</tbody></table>
+		
+		</td>
+		
+	</tr>
+	<tr>
+		<td height="6"><img src="blanks.gif" alt="" border="0" height="1" width="1"></td>
+	</tr>
+	<tr>
+		<td colspan="4" background="about:blank?horiz-bar-long.jpg" height="1" valign="top"></td>
+	</tr>
+	<tr>
+		<td height="6"><img src="blanks.gif" alt="" border="0" height="1" width="1"></td>
+	</tr>
+	</tbody></table>
+<!-- third main table: main content END -->
+	
+
+		
+		
+
+
+
+		
+		
+		  	<div class="abstract">
+			
+			
+			  	
+			 
+			 
+			
+			</div>
+		
+		
+		
+
+		
+		  	<div class="abstract">
+			
+			
+			  	
+			 
+			 
+			
+			</div>
+		
+			
+		
+		
+		
+			<br>
+			<div class="abstract">
+			
+			<a href="http://portal.acm.org/citation.cfm?id=932295#CIT"><img name="top" src="arrowu.gif" border="0" hspace="10"></a><span class="heading"><a name="citings">CITED BY</a><a name="citedby"></a>&nbsp;&nbsp;<i>141</i></span>
+			
+			
+			  	
+					
+					
+					 
+					 
+					 
+				
+				
+									
+				
+			  
+			
+			<table cellpadding="5">
+			
+				<tbody><tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1761477&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Robert Cerny, Topincs: a RESTful web service interface for topic maps, Proceedings of the 2nd international conference on Topic maps research and applications, October 11-12, 2006, Leipzig, Germany
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1711896&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Haralambos Mouratidis , Paolo Giorgini , Gordon Manson, When security meets software engineering: a case of modelling secure information systems, Information Systems, v.30 n.8, p.609-629, December 2005
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1765627&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Bernd Schuller , Roger Menday , Achim Streit, A versatile execution management system for next-generation UNICORE grids, Proceedings of the CoreGRID 2006, UNICORE Summit 2006, Petascale Computational Biology and Bioinformatics conference on Parallel processing, August 29-September 01, 2006, Dresden, Germany
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1741589&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Tancred Lindholm , Jaakko Kangasharju , Sasu Tarkoma, Syxaw: Data Synchronization Middleware for the Mobile Web, Mobile Networks and Applications, v.14 n.5, p.661-676, October   2009
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1769800&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Yasushi Hayashi , Dongxi Liu , Kento Emoto , Kazutaka Matsuda , Zhenjiang Hu , Masato Takeichi, A web service architecture for bidirectional XML updating, Proceedings of the joint 9th Asia-Pacific web and 8th international conference on web-age information management conference on Advances in data and web management, June 16-18, 2007, Huang Shan, China
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1765575&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Chris A. Mattmann , Nenad Medvidovic, The GridLite DREAM: bringing the grid to your pocket, Proceedings of the 12th Monterey conference on Reliable systems on unreliable networked platforms, p.70-87, September 22-24, 2005, Laguna Beach, CA, 2005
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=514185&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Roy T. Fielding , Richard N. Taylor, Principled design of the modern Web architecture, ACM Transactions on Internet Technology (TOIT), v.2 n.2, p.115-150, May 2002
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=613730&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Steve Vinoski, Putting the "Web" into Web Services: Interaction Models, Part 2, IEEE Internet Computing, v.6 n.4, p.90-92, July 2002
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=775164&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						John Barton , Tim Kindberg , Hui Dai , Nissanka B. Priyantha , Fahd Al-bin-ali, Sensor-enhanced mobile web clients: an XForms approach, Proceedings of the 12th international conference on World Wide Web, May 20-24, 2003, Budapest, Hungary
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=582138&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Marija Mikic-Rakic , Nikunj Mehta , Nenad Medvidovic, Architectural style requirements for self-healing systems, Proceedings of the first workshop on Self-healing systems, November 18-19, 2002, Charleston, South Carolina
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=570710&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Chatschik Bisdikian , Isaac Boamah , Paul Castro , Archan Misra , Jim Rubas , Nicolas Villoutreix , Danny Yeh , Vladimir Rasin , Henry Huang , Craig Simonds, Intelligent pervasive middleware for context-based and localized telematics services, Proceedings of the 2nd international workshop on Mobile commerce, September 28-28, 2002, Atlanta, Georgia, USA
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=940118&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Nikunj R. Mehta , Nenad Medvidovic, Composing architectural styles from architectural primitives, ACM SIGSOFT Software Engineering Notes, v.28 n.5, September 2003
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=942618&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Nenad Medvidovic , Marija Mikic-Rakic , Nikunj R. Mehta , Sam Malek, Software Architectural Support for Handheld Computing, Computer, v.36 n.9, p.66-73, September 2003
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=984778&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Ross D. Gardler , Nikolay Mehandjiev, Using XML pipelines to build dynamically configurable software, Proceedings of the winter international synposium on Information and communication technologies, January 05-08, 2004, Cancun, Mexico
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1035207&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Thomas Sandholm , Peter Gardfj&auml;ll , Erik Elmroth , Lennart Johnsson , Olle Mulmo, An OGSA-based accounting system for allocation enforcement across HPC centers, Proceedings of the 2nd international conference on Service oriented computing, November 15-19, 2004, New York, NY, USA
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=642327&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Steffen Staab , Wil van der Aalst , V. Richard Benjamins , Amit Sheth , John A. Miller , Christoph Bussler , Alexander Maedche , Dieter Fensel , Dennis Gannon, Web Services: Been There, Done That?, IEEE Intelligent Systems, v.18 n.1, p.72, January 2003
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1050716&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Werner Vogels, Web Services Are Not Distributed Objects, IEEE Internet Computing, v.7 n.6, p.59-66, November 2003
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1062474&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Roy T. Fielding, Software architecture in an open source world, Proceedings of the 27th international conference on Software engineering, May 15-21, 2005, St. Louis, MO, USA
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1069742&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Steve Vinoski, WS-Addressing Metadata, IEEE Internet Computing, v.9 n.3, p.90-93, May 2005
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1090235&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Piyush Maheshwari , Albert Teoh, Supporting ATAM with a collaborative web-based software architecture evaluation tool, Science of Computer Programming, v.57 n.1, p.109-128, July 2005
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1116711&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Haralambos Mouratidis , Paolo Giorgini , Gordon Manson, When security meets software engineering: a case of modelling secure information systems, Information Systems, v.30 n.8, p.609-629, December 2005
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1032435&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Steve Vinoski, WS-Nonexistent Standards, IEEE Internet Computing, v.8 n.6, p.94-96, November 2004
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=767610&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Longzhuang Li , Hongchi Shi , Yi Shang , Su-Shing Chen, Open learning objects for data structure course, Journal of Computing Sciences in Colleges, v.18 n.4, p.56-64, April 2003
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1115474&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Michael zur Muehlen , Jeffrey V. Nickerson , Keith D. Swenson, Developing web services choreography standards: the case of REST vs. SOAP, Decision Support Systems, v.40 n.1, p.9-29, July 2005
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1070836&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Sam Malek , Marija Mikic-Rakic , Nenad Medvidovic, A Style-Aware Architectural Middleware for Resource-Constrained, Distributed Systems, IEEE Transactions on Software Engineering, v.31 n.3, p.256-272, March 2005
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1124792&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						David R. Millen , Jonathan Feinberg , Bernard Kerr, Dogear: Social bookmarking in the enterprise, Proceedings of the SIGCHI conference on Human Factors in computing systems, April 22-27, 2006, Montr&eacute;al, Qu&eacute;bec, Canada
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1360608&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Behzad Bastani, Process-oriented abstraction of the complex evolvable systems: problem model construction, ACM SIGSOFT Software Engineering Notes, v.33 n.3, May 2008
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1802386&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Dominique Guinard , Vlad Trifa , Thomas Pham , Olivier Liechti, Towards physical mashups in the web of things, Proceedings of the 6th international conference on Networked sensing systems, June 17-19, 2009, Pittsburgh, Pennsylvania, USA
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1178761&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Ryan Shaw , Patrick Schmitz, Community annotation and remix: a research platform and pilot deployment, Proceedings of the 1st ACM international workshop on Human-centered multimedia, October 27-27, 2006, Santa Barbara, California, USA
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1753734&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Hui Ming Teo , Wan Mohd Nasir Wan Kadir, Web API design considerations for resolving inherent issues in web environment, International Journal of Web Engineering and Technology, v.5 n.4, p.360-381, March 2009
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1856394&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Michael Knappmeyer , Saad Liaquat Kiani , Cristina Fr&agrave; , Boris Moltchanov , Nigel Baker, ContextML: a light-weight context representation and context management schema, Proceedings of the 5th IEEE international conference on Wireless pervasive computing, p.367-372, May 05-07, 2010, Mondena, Italy
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1135869&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Christopher H. Brooks , Nancy Montanez, Improved annotation of the blogosphere via autotagging and hierarchical clustering, Proceedings of the 15th international conference on World Wide Web, May 23-26, 2006, Edinburgh, Scotland
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1149486&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Max V&ouml;lkel, SemWiki: a RESTful distributed Wiki architecture, Proceedings of the 2006 international symposium on Wikis, August 21-23, 2006, Odense, Denmark
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1789370&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Tharam S. Dillon , Chen Wu , Elizabeth Chang, Reference architectural styles for service-oriented computing, Proceedings of the 2007 IFIP international conference on Network and parallel computing, September 18-21, 2007, Dalian, China
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1789412&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Jun Zhao , Graham Klyne , David Shotton, Building a semantic web image repository for biological research images, Proceedings of the 5th European semantic web conference on The semantic web: research and applications, June 01-05, 2008, Tenerife, Canary Islands, Spain
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1784659&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Carlos R. Jaimez Gonz&aacute;lez , Simon M. Lucas, Implementing a state-based application using web objects in XML, Proceedings of the 2007 OTM Confederated international conference on On the move to meaningful internet systems: CoopIS, DOA, ODBASE, GADA, and IS, November 25-30, 2007, Vilamoura, Portugal
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1698213&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Antero Taivalsaari, Mashware: the future of web applications, Sun Microsystems, Inc., Mountain View, CA, 2009
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1730902&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Sujit Kumar Chakrabarti , Reswin Rodriquez, Connectedness testing of RESTful web-services, Proceedings of the 3rd India software engineering conference, February 25-27, 2010, Mysore, India
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1232237&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						C. Hill , R. Yates , C. Jones , S. L. Kogan, Beyond predictable workflows: enhancing productivity in artful business processes, IBM Systems Journal, v.45 n.4, p.663-682, October 2006
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1232239&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						A. Cozzi , S. Farrell , T. Lau , B. A. Smith , C. Drews , J. Lin , B. Stachel , T. P. Moran, Activity management as a web service, IBM Systems Journal, v.45 n.4, p.695-712, October 2006
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1798384&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Antonio Garrote Hern&aacute;ndez , Mar&iacute;a N. Moreno Garc&iacute;a, A formal definition of RESTful semantic web services, Proceedings of the First International Workshop on RESTful Design, April 26-26, 2010, Raleigh, North Carolina
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1798381&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Charles Engelke , Craig Fitzgerald, Replacing legacy web services with RESTful services, Proceedings of the First International Workshop on RESTful Design, April 26-26, 2010, Raleigh, North Carolina
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1743250&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Krasimir Angelov , Bj&ouml;rn Bringert , Aarne Ranta, PGF: A Portable Run-time Format for Type-theoretical Grammars, Journal of Logic, Language and Information, v.19 n.2, p.201-228, April     2010
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1293735&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Stefan Poslad, Specifying protocols for multi-agent systems interaction, ACM Transactions on Autonomous and Adaptive Systems (TAAS), v.2 n.4, p.15-es, November 2007
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1793734&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Eng Chew , Igor Hawryszkiewycz , Michael Soanes, Modeling requirements for value configuration design, Proceedings of the 2007 international conference on Business process management, September 24, 2007, Brisbane, Australia
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1793447&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						R. Menday , B. Hagemeier, UNICORE/w3, Proceedings of the 2007 conference on Parallel processing, August 28-31, 2007, Rennes, France
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1378109&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Peter Leong , Senthil Sukumar , Valencia Lee, Peer-to-peer autonomic location based services, Proceedings of the 4th international conference on mobile technology, applications, and systems and the 1st international symposium on Computer human interaction in mobile technology, September 10-12, 2007, Singapore
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1270305&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Gerald C. Gannod , Janet E. Burge , Susan D. Urban, Issues in the Design of Flexible and Dynamic Service-Oriented Systems, Proceedings of the International Workshop on Systems Development in SOA Environments, p.8, May 20-26, 2007
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1248949&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Ali Mesbah, Ajaxifying Classic Web Applications, Companion to the proceedings of the 29th International Conference on Software Engineering, p.81-82, May 20-26, 2007
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1120208&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Nenad Medvidovic , Vladimir Jakobac, Using software evolution to focus architectural recovery, Automated Software Engineering, v.13 n.2, p.225-256, April     2006
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=999447&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Rohit Khare , Richard N. Taylor, Extending the Representational State Transfer (REST) Architectural Style for Decentralized Systems, Proceedings of the 26th International Conference on Software Engineering, p.428-437, May 23-28, 2004
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1367606&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Cesare Pautasso , Olaf Zimmermann , Frank Leymann, Restful web services vs. "big"' web services: making the right architectural decision, Proceeding of the 17th international conference on World Wide Web, April 21-25, 2008, Beijing, China
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1294228&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Stephen Farrell , Tessa Lau , Stefan Nusser , Eric Wilcox , Michael Muller, Socially augmenting employee profiles with people-tagging, Proceedings of the 20th annual ACM symposium on User interface software and technology, October 07-10, 2007, Newport, Rhode Island, USA
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=949803&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						S. Thompson , D. Bonnefoy , S. Willmott, Creating Bespoke Applications on Demand from the Agentcities Test-Bed, BT Technology Journal, v.21 n.4, p.153-161, 2003
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1363739&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Giulio Piancastelli , Alex Benini , Andrea Omicini , Alessandro Ricci, The architecture and design of a malleable object-oriented prolog engine, Proceedings of the 2008 ACM symposium on Applied computing, March 16-20, 2008, Fortaleza, Ceara, Brazil
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1033243&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Marty Humphrey , Glenn Wasson , Mark Morgan , Norm Beekwilder, An Early Evaluation of WSRF and WS-Notification via WSRF.NET, Proceedings of the 5th IEEE/ACM International Workshop on Grid Computing, p.172-181, November 08-08, 2004
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1361188&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Robert A. Van Engelen, A framework for service-oriented computing with C and C++ Web service components, ACM Transactions on Internet Technology (TOIT), v.8 n.3, p.1-25, May 2008
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1454422&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Robert Tolksdorf , Lyndon Nixon , Elena Simperl, Towards a tuplespace-based middleware for the Semantic Web, Web Intelligence and Agent Systems, v.6 n.3, p.235-251, August 2008
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1486894&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Tobias Vogel , Alexander Schmidt , Alexander Lemm , Hubert &Ouml;sterle, Service and document based interoperability for European ecustoms solutions, Journal of Theoretical and Applied Electronic Commerce Research, v.3 n.3, p.17-37, December 2008
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1496102&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Dola Saha , Dirk Grunwald , Douglas Sicker, Wireless innovation through software radios, ACM SIGCOMM Computer Communication Review, v.39 n.1, January 2009
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1497317&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						David Lizcano , Javier Soriano , Marcos Reyes , Juan J. Hierro, EzWeb/FAST: reporting on a successful mashup-based solution for developing and deploying composite applications in the upcoming web of services, Proceedings of the 10th International Conference on Information Integration and Web-based Applications & Services, November 24-26, 2008, Linz, Austria
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1383472&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Jon Phipps , Diane I. Hillmann , Gordon Paynter, Orchestrating metadata enhancement services: introducing Lenny, Proceedings of the 2005 international conference on Dublin Core and metadata applications: vocabularies in practice, September 12-15, 2005, Madrid, Spain
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1365596&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Tomasz Szydło , Robert Szymacha , Krzysztof Zieliński, Context generation and structuralization for ambient networks, Proceedings of the 1st international conference on Autonomic computing and communication systems, October 28-30, 2007, Rome, Italy
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1348247&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Iwan Vosloo , Derrick G. Kourie, Server-centric Web frameworks: An overview, ACM Computing Surveys (CSUR), v.40 n.2, p.1-33, April 2008
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1367607&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Oliver Moser , Florian Rosenberg , Schahram Dustdar, Non-intrusive monitoring and service adaptation for WS-BPEL, Proceeding of the 17th international conference on World Wide Web, April 21-25, 2008, Beijing, China
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1365300&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						&iacute;scar Celma , Yves Raimond, ZemPod: A semantic web approach to podcasting, Web Semantics: Science, Services and Agents on the World Wide Web, v.6 n.2, p.162-169, April, 2008
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1357212&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Ido Guy , Michal Jacovi , Elad Shahar , Noga Meshulam , Vladimir Soroka , Stephen Farrell, Harvesting with SONAR: the value of aggregating social network information, Proceeding of the twenty-sixth annual SIGCHI conference on Human factors in computing systems, April 05-10, 2008, Florence, Italy
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1366834&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Dong Liu , Ralph Deters, BUST: enabling scalable service orchestration, Proceedings of the 2nd international conference on Scalable information systems, June 06-08, 2007, Suzhou, China
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1367599&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Roxana Geambasu , Cherie Cheung , Alexander Moshchuk , Steven D. Gribble , Henry M. Levy, Organizing and sharing distributed personal web-service data, Proceeding of the 17th international conference on World Wide Web, April 21-25, 2008, Beijing, China
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1340863&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Jason Brazile , Rudolf Richter , Daniel Schl&auml;pfer , Michael E. Schaepman , Klaus I. Itten, Cluster versus grid for operational generation of ATCOR's modtran-based look up tables, Parallel Computing, v.34 n.1, p.32-46, January, 2008
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1359856&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Jon Phipps , Diane I. Hillmann , Gordon W. Paynter, Orchestrating metadata enhancement services: introducing Lenny, International Journal of Metadata, Semantics and Ontologies, v.1 n.3, p.189-197, February 2006
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1360212&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Herwig Rollett , Mathias Lux , Markus Strohmaier , Gisela Dosinger , Klaus Tochtermann, The Web 2.0 way of learning with technologies, International Journal of Learning Technology, v.3 n.1, p.87-107, February 2007
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1454978&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Ali Mesbah , Arie van Deursen, A component- and push-based architectural style for ajax applications, Journal of Systems and Software, v.81 n.12, p.2194-2209, December, 2008
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1454977&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Jens Dietrich , Nathan Jones , Jevon Wright, Using social networking and semantic web technology in software engineering - Use cases, patterns, and a case study, Journal of Systems and Software, v.81 n.12, p.2183-2193, December, 2008
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1486327&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						David Aspinall , Serge Autexier , Christoph L&uuml;th , Marc Wagner, Towards Merging Plat&Omega; and PGIP, Electronic Notes in Theoretical Computer Science (ENTCS), 226, p.3-21, January, 2009
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1383526&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Mayur R. Palankar , Adriana Iamnitchi , Matei Ripeanu , Simson Garfinkel, Amazon S3 for science grids: a viable solution?, Proceedings of the 2008 international workshop on Data-aware distributed computing, p.55-64, June 24-24, 2008, Boston, MA, USA
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1394825&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Lyndon j. b. Nixon , Elena Simperl , Reto Krummenacher , Francisco Martin-recuerda, Tuplespace-based computing for the semantic web: A survey of the state-of-the-art, The Knowledge Engineering Review, v.23 n.2, p.181-212, June 2008
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1460680&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Steven R. Ness , Matthew Wright , L. Gustavo Martins , George Tzanetakis, Chants and Orcas: semi-automatic tools for audio annotation and analysis in niche domains, Proceeding of the 2nd ACM workshop on Multimedia semantics, October 31-31, 2008, Vancouver, British Columbia, Canada
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1435210&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Fran&ccedil;ois Belleau , Marc-Alexandre Nolin , Nicole Tourigny , Philippe Rigault , Jean Morissette, Bio2RDF: Towards a mashup to build bioinformatics knowledge systems, Journal of Biomedical Informatics, v.41 n.5, p.706-716, October, 2008
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1461945&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						T. V. Raman, Toward 2<sup><i>W</i></sup>, beyond web 2.0, Communications of the ACM, v.52 n.2, February 2009
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1507921&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Ewa Deelman , Dennis Gannon , Matthew Shields , Ian Taylor, Workflows and e-Science: An overview of workflow system features and capabilities, Future Generation Computer Systems, v.25 n.5, p.528-540, May, 2009
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1497282&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Martin Gaedke , Danilo H&auml;rtzer , Andreas Heil, WebComposition/DGS: dynamic service components for web 2.0 development, Proceedings of the 6th International Conference on Advances in Mobile Computing and Multimedia, November 24-26, 2008, Linz, Austria
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1486378&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Sriram Krishnan , Karan Bhatia, SOAs for scientific applications: Experiences and challenges, Future Generation Computer Systems, v.25 n.4, p.466-473, April, 2009
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1496423&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						John Field , Maria-Cristina Marinescu , Christian Stefansen, Reactors: A data-oriented synchronous/asynchronous programming model for distributed applications, Theoretical Computer Science, v.410 n.2-3, p.168-201, February, 2009
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1497408&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Tobias Nestler, Towards a mashup-driven end-user programming of SOA-based applications, Proceedings of the 10th International Conference on Information Integration and Web-based Applications & Services, November 24-26, 2008, Linz, Austria
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1529707&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Julien Cervelle , R&eacute;mi Forax , Gautier Loyaut&eacute; , Gilles Roussel, Banzai: a Java framework for the implementation of high-performance servers, Proceedings of the 2009 ACM symposium on Applied Computing, March 08-12, 2009, Honolulu, Hawaii
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1497230&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Chien Jon Soon , Paul Roe, Annotation architecture for mobile collaborative mapping, Proceedings of the 6th International Conference on Advances in Mobile Computing and Multimedia, November 24-26, 2008, Linz, Austria
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1503439&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Michael Panzer, Cool URIs for the DDC: towards web-scale accessibility of a large classification system, Proceedings of the 2008 International Conference on Dublin Core and Metadata Applications, September 22-28, 2008, Berlin, Germany
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1497328&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Javier Soriano , Javier L&oacute;pez , Miguel Jim&eacute;nez , Fernando Alonso, Enabling semantics-aware collaborative tagging and social search in an open interoperable tagosphere, Proceedings of the 10th International Conference on Information Integration and Web-based Applications & Services, November 24-26, 2008, Linz, Austria
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1564729&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						P. Jamshidi , S. Khoshnevis , R. Teimourzadegan , A. Nikravesh , F. Shams, Toward automatic transformation of enterprise business model to service model, Proceedings of the 2009 ICSE Workshop on Principles of Engineering Service Oriented Systems, p.70-74, May 18-19, 2009
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1515927&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Marija Mikic-Rakic , Nenad Medvidovic, Adaptable architectural middleware for programming-in-the-small-and-many, Proceedings of the ACM/IFIP/USENIX 2003 International Conference on Middleware, June 16-20, 2003, Rio de Janeiro, Brazil
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1527042&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						P. Jamshidi , S. Khoshnevis , R. Teimourzadegan , A. Nikravesh , F. Shams, An automated method for service specification, Proceedings of the Warm Up Workshop for ACM/IEEE ICSE 2010, April 01-03, 2009, Cape Town, South Africa
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1526834&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Heiko Ludwig , Jim Laredo , Kamal Bhattacharya , Liliana Pasquale , Bruno Wassermann, REST-based management of loosely coupled services, Proceedings of the 18th international conference on World wide web, April 20-24, 2009, Madrid, Spain
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1529419&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Luiz Alexandre Hiane da Silva Maciel , Celso Massaki Hirata, An optimistic technique for transactions control using REST architectural style, Proceedings of the 2009 ACM symposium on Applied Computing, March 08-12, 2009, Honolulu, Hawaii
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1559791&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Benjamin T. Francis , Robert J. Stone, WebScylla: a 3D web application to visualise the colonisation of an artificial reef, Proceedings of the 14th International Conference on 3D Web Technology, June 16-17, 2009, Darmstadt, Germany
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1558343&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Giusy Di Lorenzo , Hakim Hacid , Hye-young Paik , Boualem Benatallah, Data integration in mashups, ACM SIGMOD Record, v.38 n.1, March 2009
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1566717&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Chao Zhou , Christophe Lejeune , Aur&eacute;lien B&eacute;nel, Towards a standard protocol for community-driven organizations of knowledge, Proceeding of the 2006 conference on Leading the Web in Concurrent Engineering: Next Generation Concurrent Engineering, p.438-449, May 24, 2006
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1551240&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Cesare Pautasso, RESTful Web service composition with BPEL for REST, Data & Knowledge Engineering, v.68 n.9, p.851-866, September, 2009
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1629886&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Dong-Bach Vo , Marco Winckler, PIAFF: un outil d'aide &agrave; la saisie d'informations personnelles pour les formulaires &eacute;lectroniques, Proceedings of the 21st International Conference on Association Francophone d'Interaction Homme-Machine, October 13-16, 2009, Grenoble, France
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1582377&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						David Lizcano , Javier Soriano , Marcos Reyes , Juan J. Hierro, A user-centric approach for developing and deploying service front-ends in the future internet of services, International Journal of Web and Grid Services, v.5 n.2, p.155-191, August 2009
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1758408&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Haralambos Mouratidis , Paolo Giorgini , Gordon Manson, Integrating security and systems engineering: towards the modelling of secure information systems, Proceedings of the 15th international conference on Advanced information systems engineering, June 16-20, 2003, Klagenfurt, Austria
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1577981&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Khaldoon Al-Zoubi , Gabriel Wainer, Using REST Web-Services Architecture for Distributed Simulation, Proceedings of the 2009 ACM/IEEE/SCS 23rd Workshop on Principles of Advanced and Distributed Simulation, p.114-121, June 22-25, 2009
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1655037&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Ryota Hashimoto , Nachi Ueno , Michio Shimomura, A design of usable and secure access-control APIs for mashup applications, Proceedings of the 5th ACM workshop on Digital identity management, November 13-13, 2009, Chicago, Illinois, USA
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1647329&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Giuseppe Di Fabbrizio , Thomas Okken , Jay G. Wilpon, A speech mashup framework for multimodal mobile services, Proceedings of the 2009 international conference on Multimodal interfaces, November 02-04, 2009, Cambridge, Massachusetts, USA
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1596493&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Chiyoung Seo , George Edwards , Daniel Popescu , Sam Malek , Nenad Medvidovic, A framework for estimating the energy consumption induced by a distributed system's architectural style, Proceedings of the 8th international workshop on Specification and verification of component-based systems, August 25-25, 2009, Amsterdam, The Netherlands
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1658272&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Yan Liu , Shaowen Wang , Nancy Wilkins-Diehr, SimpleGrid 2.0: a learning and development toolkit for building highly usable TeraGrid science gateways, Proceedings of the 5th Grid Computing Environments Workshop, November 20-20, 2009, Portland, Oregon
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1651426&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Marcos L&oacute;pez-Sanz , Juan Manuel Vara , Esperanza Marcos , Carlos E. Cuesta, A model-driven approach to weave architectural styles into service-oriented architectures, Proceeding of the first international workshop on Model driven service engineering and data quality and security, November 06-06, 2009, Hong Kong, China
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1632195&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Areeb Alowisheq , David E. Millard, EXPRESS: EXPressing REstful Semantic Services, Proceedings of the 2009 IEEE/WIC/ACM International Joint Conference on Web Intelligence and Intelligent Agent Technology, p.453-456, September 15-18, 2009
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1658565&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Markus Weiss , Friedemann Mattern , Tobias Graml , Thorsten Staake , Elgar Fleisch, Handy feedback: connecting smart meters with mobile phones, Proceedings of the 8th International Conference on Mobile and Ubiquitous Multimedia, p.1-4, November 22-25, 2009, Cambridge, United Kingdom
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1659367&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Wout Hofman, Semantic interoperability for collaborative spatial design, Proceeding of the 2009 conference on Techniques and Applications for Mobile Commerce: Proceedings of TAMoCo 2009, p.3-16, July 21, 2009
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1659443&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Luis Oliva , Luigi Ceccaroni, REST Web Services in Collaborative Work Environments, Proceeding of the 2009 conference on Artificial Intelligence Research and Development: Proceedings of the 12th International Conference of the Catalan Association for Artificial Intelligence, p.419-427, July 22, 2009
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1600226&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						John M. Boyer , Charles F. Wiecha , Rahul P. Akolkar, A REST protocol and composite format for interactive web documents, Proceedings of the 9th ACM symposium on Document engineering, September 16-18, 2009, Munich, Germany
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1631740&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Keyuan Jiang , Charles Winer, Introducing an application integration course in IT curriculum, Proceedings of the 10th ACM conference on SIG-information technology education, October 22-24, 2009, Fairfax, Virginia, USA
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1629840&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Romain Vuillemot , B&eacute;atrice Rumpler, Une interface de programmation visuelle pour la composition de services de visualisation d'information, Proceedings of the 21st International Conference on Association Francophone d'Interaction Homme-Machine, October 13-16, 2009, Grenoble, France
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1600233&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Pierre-&Eacute;douard Portier , Sylvie Calabretto, Creation and maintenance of multi-structured documents, Proceedings of the 9th ACM symposium on Document engineering, September 16-18, 2009, Munich, Germany
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1630315&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Erik Elmroth , Francisco Hern&aacute;ndez , Johan Tordsson, Three fundamental dimensions of scientific workflow interoperability: Model of computation, language, and execution environment, Future Generation Computer Systems, v.26 n.2, p.245-256, February, 2010
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1798387&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Petri Selonen , Petros Belimpasakis , Yu You, Developing a ReSTful mixed reality web service platform, Proceedings of the First International Workshop on RESTful Design, April 26-26, 2010, Raleigh, North Carolina
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1699357&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Md. Abdur Rahman , Mohammed F. Alhamid , Abdulmotaleb El Saddik , Wail Gueaieb, A framework to bridge social network and body sensor network: an e-health perspective, Proceedings of the 2009 IEEE international conference on Multimedia and Expo, p.1720-1723, June 28-July 03, 2009, New York, NY, USA
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1710047&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Cedric Ulmer , Gabriel Serme , Yohann Bonillo, Enabling web object orientation with mobile devices, Proceedings of the 6th International Conference on Mobile Technology, Application & Systems, p.1-4, September 02-04, 2009, Nice, France
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1667815&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Yoshihiro Kawahara , Ahmad Kamil Abdul Hamid , TaeYoung Song , Kei Wada , Tohru Asami, Network management architecture toward universal communication, Proceedings of the 3rd International Universal Communication Symposium, December 03-04, 2009, Tokyo, Japan
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1719367&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Matthias Wieland , Katharina G&ouml;rlach , David Schumm , Frank Leymann, Towards reference passing in web service and workflow-based applications, Proceedings of the 13th IEEE international conference on Enterprise Distributed Object Computing, p.89-98, September 01-04, 2009, Auckland, New Zealand
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1734780&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Taekyu Kim , Chungman Seo , Bernard P. Zeigler, Web-based Distributed Network Analyzer using a System Entity Structure over a Service-oriented Architecture, Simulation, v.86 n.3, p.155-180, March     2010
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1764613&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						John Field , Maria-Cristina Marinescu , Christian Stefansen, Reactors: a data-oriented synchronous/asynchronous programming model for distributed applications, Proceedings of the 9th international conference on Coordination models and languages, June 06-08, 2007, Paphos, Cyprus
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1764608&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Elena Simperl , Reto Krummenacher , Lyndon Nixon, A coordination model for triplespace computing, Proceedings of the 9th international conference on Coordination models and languages, June 06-08, 2007, Paphos, Cyprus
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1814078&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						WonSeok Lee , Cheol Min Lee , Jung Won Lee , Jin-Soo Sohn, ROA based web service provisioning methodology for Telco and its implementation, Proceedings of the 12th Asia-Pacific network operations and management conference on Management enabling the future internet for changing business and new computing services, September 23-25, 2009, Jeju, South Korea
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1856389&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Eike S. Reetz , Ralf T&ouml;njes , Nigel Baker, Towards global smart spaces: merge wireless sensor networks into context-aware systems, Proceedings of the 5th IEEE international conference on Wireless pervasive computing, p.337-342, May 05-07, 2010, Mondena, Italy
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1812663&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						P. G. Binod , Ramesh Parthasarathy, Converged application framework for creating web 2.0 - IMS mashups, Proceedings of the 3rd IEEE international conference on Internet multimedia services architecture and applications, December 09-11, 2009, Bangalore, India
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1812830&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Matthias Razum , Frank Schwichtenberg , Steffen Wagner , Michael Hoppe, eSciDoc infrastructure: a fedora-based e-Research framework, Proceedings of the 13th European conference on Research and advanced technology for digital libraries, September 27-October 02, 2009, Corfu, Greece
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1811931&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Guo Jie , Cheng Bo , Chen Junliang , Lin Xiangtao, Applying recommender system based mashup to web-telecom hybrid service creation, Proceedings of the 28th IEEE conference on Global telecommunications, p.3321-3325, November 30-December 04, 2009, Honolulu, Hawaii, USA
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1772711&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Brett Cannon , Eric Wohlstadter, Automated object persistence for JavaScript, Proceedings of the 19th international conference on World wide web, April 26-30, 2010, Raleigh, North Carolina, USA
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1798379&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Savas Parastatidis , Jim Webber , Guilherme Silveira , Ian S. Robinson, The role of hypermedia in distributed system development, Proceedings of the First International Workshop on RESTful Design, April 26-26, 2010, Raleigh, North Carolina
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1798385&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Ian Jacobi , Alexey Radul, A RESTful messaging system for asynchronous distributed processing, Proceedings of the First International Workshop on RESTful Design, April 26-26, 2010, Raleigh, North Carolina
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1798378&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Marc Hadley , Santiago Pericas-Geertsen , Paul Sandoz, Exploring hypermedia support in Jersey, Proceedings of the First International Workshop on RESTful Design, April 26-26, 2010, Raleigh, North Carolina
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1834491&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Bradley J. Rhodes , Sergey Chemishkian , Edward L. Schwartz , Stephen Savitzky , Haixia Yu, Automatic discovery and execution of personal applications from shared IO devices, Proceedings of the 7th IEEE conference on Consumer communications and networking conference, p.1163-1164, January 09-12, 2010, Las Vegas, Nevada, USA
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1834386&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Jeppe Br&oslash;nsted , Per Printz Madsen , Arne Skou , Rune Torbesen, The homeport system, Proceedings of the 7th IEEE conference on Consumer communications and networking conference, p.754-758, January 09-12, 2010, Las Vegas, Nevada, USA
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1671207&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Luis Oliva , Luigi Ceccaroni, REST Web Services in Collaborative Work Environments, Proceeding of the 2009 conference on Artificial Intelligence Research and Development: Proceedings of the 12th International Conference of the Catalan Association for Artificial Intelligence, p.419-427, July 22, 2009
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1798383&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Federico Fernandez , Jaime Nav&oacute;n, Towards a practical model to facilitate reasoning about REST extensions and reuse, Proceedings of the First International Workshop on RESTful Design, April 26-26, 2010, Raleigh, North Carolina
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1835395&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+						
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1808895&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Martin Treiber , Lukasz Juszczyk , Daniel Schall , Schahram Dustdar, Programming evolvable web services, Proceedings of the 2nd International Workshop on Principles of Engineering Service-Oriented Systems, May 01-02, 2010, Cape Town, South Africa
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1850704&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						M. Ohara, Aggregating REST requests to accelerate Web 2.0 applications, IBM Journal of Research and Development, v.54 n.1, p.91-102, January 2010
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+				<tr valign="top">
+				<td valign="top">
+					
+                    
+					
+				</td>
+				<td>
+					<div class="abstract">
+						
+						<a href="http://portal.acm.org/citation.cfm?id=1810289&dl=GUIDE&coll=GUIDE&CFID=104666470&CFTOKEN=59579742">
+
+						Dogan Yazar , Adam Dunkels, Efficient application integration in IP-based sensor networks, Proceedings of the First ACM Workshop on Embedded Sensing Systems for Energy-Efficiency in Buildings, November 03-03, 2009, Berkeley, California
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+			</tbody></table>
+			
+			</div>
+		
+
+		
+			
+			
+			  	
+			 
+			 
+			
+		
+		
+		
+			
+			
+			  	
+			
+			
+			
+		
+		
+		
+				
+		
+			<div class="abstract">
+				
+				<a href="http://portal.acm.org/citation.cfm?id=932295#CIT"><img name="top" src="arrowu.gif" border="0" hspace="10"></a><span class="heading"><a name="collab">Collaborative Colleagues:</a></span>
+				
+				<table style="margin-left: 2em;" border="0" cellpadding="2">
+				
+				
+				
+				
+				
+				
+					<tbody><tr>
+						<td>
+							<div class="abstract">
+
+							
+							  	Roy Thomas Fielding: <a href="http://portal.acm.org/author_page.cfm?id=81100283787&dsp=coll&coll=GUIDE&dl=GUIDE&trk=1&CFID=104666470&CFTOKEN=59579742" target="_self">colleagues</a>
+							
+							</div>
+						</td>
+					</tr>
+				
+					<tr>
+						<td>
+							<div class="abstract">
+
+							
+							  	Richard N. Taylor: <a href="http://portal.acm.org/author_page.cfm?id=81452609528&dsp=coll&coll=GUIDE&dl=GUIDE&trk=1&CFID=104666470&CFTOKEN=59579742" target="_self">colleagues</a>
+							
+							</div>
+						</td>
+					</tr>
+				
+				
+				</tbody></table>
+			</div>
+						
+		
+		
+		
+		
+		
+		
+		
+			
+				
+				
+				
+			
+		
+				
+			
+  	
+
+
+
+
+<br>
+<div class="footer-copy-text" align="center">
+
+	
+
+
+
+	The ACM Portal is published by the Association for Computing Machinery. Copyright &copy; 2010 ACM, Inc.<br>
+	<a href="http://librarians.acm.org/policies">Terms of Usage</a>&nbsp;&nbsp;
+	<a href="http://www.acm.org/about/privacy-policy">Privacy Policy</a>&nbsp;&nbsp;
+	<a href="http://www.acm.org/about/code-of-ethics">Code of Ethics</a>&nbsp;&nbsp;	  
+	<a href="http://www.acm.org/about/contact-us">Contact Us</a>
+
+<br><br>
+Useful downloads: 
+<a href="http://www.adobe.com/products/acrobat/readstep2.html"><img src="pdf_logo.gif" alt="" border="0" height="16" width="16"> Adobe Acrobat</a>
+&nbsp;&nbsp;
+<a href="http://www.apple.com/quicktime/download/" target="_top"><img src="qtlogo.gif" alt="" border="0" height="16" width="16"> QuickTime</a>
+&nbsp;&nbsp;
+<a href="http://www.microsoft.com/windows/windowsmedia/download/default.asp" target="_top"><img src="wmv.gif" alt="" border="0" height="15" width="16"> Windows Media Player</a>
+&nbsp;&nbsp;
+<a href="http://www.real.com/" target="_top"><img src="realplayer.gif" alt="" border="0" height="18" width="20"> Real Player</a>
+
+
+</div>
+
+</td>
+</tr>
+</tbody></table>
+</div>
+
+</body>
+</html>

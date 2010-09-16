@@ -527,7 +527,7 @@ This paper lists barriers to dynamic carpooling adoption and possible actions
 \end_layout
 
 \begin_layout Standard
-There are suggestions on research needed: 
+There are suggestions on needed research: 
 \end_layout
 
 \begin_layout Itemize
@@ -1258,7 +1258,7 @@ In Table 1,2 and 3, for each category (columns) we list the suggestions
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -1330,13 +1330,13 @@ key "key-3"
 \begin_layout Plain Layout
 
 \size footnotesize
-Give start and ending points and clear indications.
+Give start, ending points and clear indications.
 \end_layout
 
 \begin_layout Plain Layout
 
 \size footnotesize
-Select what information to reveal
+Filter what information to reveal
 \end_layout
 
 \end_inset
@@ -1384,7 +1384,7 @@ key "key-4"
 \begin_layout Plain Layout
 
 \size footnotesize
-Lots of flexible settings
+Provide lots of flexible settings to satisfy users.
 \end_layout
 
 \end_inset
@@ -1404,7 +1404,8 @@ Lots of flexible settings
 \begin_layout Plain Layout
 
 \size footnotesize
-Entries made hours before the ride, more static than dynamic
+Provice a static/dynamic approach, let users insert entries days before
+ the start
 \end_layout
 
 \end_inset
@@ -1434,7 +1435,7 @@ key "key-5"
 \begin_layout Plain Layout
 
 \size footnotesize
-Levels of services: 
+Provide different levels of services: 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1564,7 +1565,13 @@ key "key-10"
 \begin_layout Plain Layout
 
 \size footnotesize
-One-time registation process RFID devices for drivers and riders
+Implement one-time registation process, simple.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Provide RFID devices for drivers and passengers
 \end_layout
 
 \end_inset
@@ -1640,7 +1647,9 @@ key "key-11"
 \begin_layout Plain Layout
 
 \size footnotesize
-Some suggestions about easy of use
+Focus on simplicity.
+ Provide voice, speech recognition.
+ Allow users to communicate each other.
 \end_layout
 
 \end_inset
@@ -1660,8 +1669,9 @@ Some suggestions about easy of use
 \begin_layout Plain Layout
 
 \size footnotesize
-Built around PQOS (ie: driving away from destination but to a location that
- increases PQOS, like a subway station)
+Driving passenger away from the destination but near transportation locations
+ (e.g.
+ a bus station) increases quality of service and enhances coordination.
 \end_layout
 
 \end_inset
@@ -1742,9 +1752,20 @@ key "key-13"
 \begin_layout Plain Layout
 
 \size footnotesize
-Simple registration system.
- In a second phase there is the link of social networks profiles, or manual
- fill Asks for a very simple UI
+Implement a simple registration system from mobile phone.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+In a second phase link social networks profiles, or manual fill.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Develope a very simple UI
 \end_layout
 
 \end_inset
@@ -1840,10 +1861,14 @@ key "key-15"
 \begin_layout Plain Layout
 
 \size footnotesize
-Must be similar simple and intuitive like Twitter.
- Parameters like “where are you going” are proposed to be as last time but
- modified easily.
- Car position is essential: drivers should get a message and just confirm
+Buld it similar, simple and intuitive like Twitter.
+ Use parameters like “where are you going?”.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Car position is essential: drivers should get a message and just confirm
  or refuse a ride
 \end_layout
 
@@ -1864,7 +1889,7 @@ Must be similar simple and intuitive like Twitter.
 \begin_layout Plain Layout
 
 \size footnotesize
-Just suggestions about the legal pick up points
+Use legal pick up points
 \end_layout
 
 \end_inset
@@ -1980,8 +2005,13 @@ key "key-3"
 \begin_layout Plain Layout
 
 \size footnotesize
-Basic ideas authentication before the match: password / PIN monitor arrival
- at destination feedback system a la Ebay
+Authenticate before the match: password / PIN monitor arrival at destination
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Provide a feedback system a la Ebay
 \end_layout
 
 \end_inset
@@ -1992,10 +2022,13 @@ Basic ideas authentication before the match: password / PIN monitor arrival
 \begin_layout Plain Layout
 
 \size footnotesize
-Illusion of private space is ok, but is also ok to break it.
- DCP has potential for creating new social connections Announcing matching
- items in profiles before the ride is a good idea Asks for research in social
- capital aspects
+Announce matching items in profiles before the ride
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Do research in social capital aspects
 \end_layout
 
 \end_inset
@@ -2034,7 +2067,7 @@ key "key-4"
 \begin_layout Plain Layout
 
 \size footnotesize
-PIN created at registration on web page
+Create a PIN at registration phase to be used by the client
 \end_layout
 
 \end_inset
@@ -2045,7 +2078,7 @@ PIN created at registration on web page
 \begin_layout Plain Layout
 
 \size footnotesize
-Idea of using social networks to allow car pooling on the fly
+Add social networking support to help finding neighbours
 \end_layout
 
 \end_inset
@@ -2075,8 +2108,14 @@ key "key-5"
 \begin_layout Plain Layout
 
 \size footnotesize
-Branding the idea: apply stickers on every car that participates.
- Limitation of drivers: age limits, extra driving tests, check on criminal
+Brand the idea: apply stickers on every car that participates.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Give limitations to drivers: age limits, extra driving tests, check on criminal
  records etc.
 \end_layout
 
@@ -2088,8 +2127,14 @@ Branding the idea: apply stickers on every car that participates.
 \begin_layout Plain Layout
 
 \size footnotesize
-Auto Event Recorders on cars Emergency button on mobile phone, GPS Feedback
- system a la Ebay
+Provide Auto Event Recorders on cars.
+ Implement an emergency button on mobile phone, record GPS data.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Provide a feedback system a la Ebay
 \end_layout
 
 \end_inset
@@ -2174,7 +2219,7 @@ key "key-10"
 \begin_layout Plain Layout
 
 \size footnotesize
-RFID, as carpooling activity is recorded by the system
+Record carpooling activity when cars pass throug RFID readers 
 \end_layout
 
 \end_inset
@@ -2185,7 +2230,7 @@ RFID, as carpooling activity is recorded by the system
 \begin_layout Plain Layout
 
 \size footnotesize
-Everything built around RFID
+Build it around RFID, record lots of data and positions
 \end_layout
 
 \end_inset
@@ -2224,8 +2269,7 @@ key "key-0"
 \begin_layout Plain Layout
 
 \size footnotesize
-Communities and governments should be involved in planning and implementation
- phases
+Involve community and governments in planning and implementation phases
 \end_layout
 
 \end_inset
@@ -2236,7 +2280,8 @@ Communities and governments should be involved in planning and implementation
 \begin_layout Plain Layout
 
 \size footnotesize
-Registered users only; Feedback system
+Let the service be available only to registered users; Provide a Feedback
+ system
 \end_layout
 
 \end_inset
@@ -2247,7 +2292,7 @@ Registered users only; Feedback system
 \begin_layout Plain Layout
 
 \size footnotesize
-Possibility to create social connections
+Give the possibility to create social connections
 \end_layout
 
 \end_inset
@@ -2286,11 +2331,24 @@ key "key-11"
 \begin_layout Plain Layout
 
 \size footnotesize
-Proposes RFID, GPS Rating system based on more than one PQOS metrics.
- View vehicle and driver information before entering a vehicle.
- Displaying participants pictures.
- Assignment of random numbers for passenger pickups to confirm the ride
- Advanced voice and video proposals.
+Use RFID, GPS.
+ Implement a complete rating system.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Display vehicle and driver information before entering a vehicle.
+ Display participants pictures.
+ Assign random numbers for passenger pickups to confirm the ride.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Provide voice and video features.
 \end_layout
 
 \end_inset
@@ -2301,10 +2359,13 @@ Proposes RFID, GPS Rating system based on more than one PQOS metrics.
 \begin_layout Plain Layout
 
 \size footnotesize
-Multi-hop system is better than single hop: in single trip with 3 hops a
- passenger might meet 3 to 10 persons Passengers may be socially matched
- Suggests to link the application to social networks and use profile information
- to match
+Match passengers socially.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Link the application to social networks.
 \end_layout
 
 \end_inset
@@ -2334,7 +2395,7 @@ key "key-12"
 \begin_layout Plain Layout
 
 \size footnotesize
-The use of social networks should improve it
+Use social networks to enhance it.
 \end_layout
 
 \end_inset
@@ -2383,7 +2444,8 @@ key "key-13"
 
 \size footnotesize
 People are ready to spend 17% more time to pickup a friend of the social
- network rather than a stranger
+ network rather than a stranger.
+ Implement it.
 \end_layout
 
 \end_inset
@@ -2394,7 +2456,14 @@ People are ready to spend 17% more time to pickup a friend of the social
 \begin_layout Plain Layout
 
 \size footnotesize
-Rating system GPS Asks for extra research
+Implement a rating system.
+ Use and record GPS data.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Do extra research in this field.
 \end_layout
 
 \end_inset
@@ -2433,7 +2502,7 @@ key "key-14"
 \begin_layout Plain Layout
 
 \size footnotesize
-Suggests the social network way
+Use social networks to enhance it.
 \end_layout
 
 \end_inset
@@ -2444,7 +2513,9 @@ Suggests the social network way
 \begin_layout Plain Layout
 
 \size footnotesize
-GPS Help button Record of time and place, and sound Feedback system
+Implement a GPS Help button.
+ Record time, place, and sound.
+ Develop a Feedback system
 \end_layout
 
 \end_inset
@@ -2483,9 +2554,14 @@ key "key-15"
 \begin_layout Plain Layout
 
 \size footnotesize
-It is necessary to market against negative prejudgments of people: ride-sharing
- is associated with unreliability, problems with passengers and crime.
- A Survey is proposed
+Market against negative prejudgments of people: ride-sharing is associated
+ with unreliability, problems with passengers and crime.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Use the survey provided.
 \end_layout
 
 \end_inset
@@ -2496,13 +2572,24 @@ It is necessary to market against negative prejudgments of people: ride-sharing
 \begin_layout Plain Layout
 
 \size footnotesize
-Heavy issues are not frequent at all: problems are more related to reliability,
- politeness and customs.
- Major issue is not that ride-sharing is dangerous but people think it is
- dangerous Rating system should include rate of confirmed trip- requests,
- rate of canceled trips and time accuracy.
- All the proposed systems of the other papers are listed (RFID, GPS, Blue-tooth,
- event recorders etc.) Measure of the speed of the vehicles is proposed
+Solve problems related to reliability, politeness and customs.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Make people change mind aboud the dangers of carpooling.
+ Implement a rating with rate of confirmed trip- requests, rate of canceled
+ trips and time accuracy.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Use RFID, GPS, Blue-tooth, event recorders and everything else you could
+ add.
+ Measure and record the speed of vehicles.
 \end_layout
 
 \end_inset
@@ -2547,7 +2634,7 @@ Paper Grid Outcomes: Safety, Social Aspects, Critical Mass, Incentives,
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -2637,13 +2724,13 @@ key "key-3"
 \begin_layout Plain Layout
 
 \size footnotesize
-Location awareness system
+Provide a location-aware system
 \end_layout
 
 \begin_layout Plain Layout
 
 \size footnotesize
-Use of mobile phones
+Make use of mobile phones
 \end_layout
 
 \end_inset
@@ -2673,7 +2760,8 @@ key "key-4"
 \begin_layout Plain Layout
 
 \size footnotesize
-Mass marketing Start-up incentives
+Provide mass marketing before, during and after deployment.
+ Search for start-up incentives
 \end_layout
 
 \end_inset
@@ -2684,8 +2772,13 @@ Mass marketing Start-up incentives
 \begin_layout Plain Layout
 
 \size footnotesize
-An institutional sponsor is needed.
- Parking spaces provided to participants
+Search an institutional sponsor.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Make the government provide parking spaces to participants
 \end_layout
 
 \end_inset
@@ -2696,8 +2789,20 @@ An institutional sponsor is needed.
 \begin_layout Plain Layout
 
 \size footnotesize
-Web and mobile Ride requests submitted hours before actually needing them.
- A many-to-one system: all at a single destination
+Implement both Web and mobile clients.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Implement a static and a dynamic approaches.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Start with a many-to-one system: all at a single destination
 \end_layout
 
 \end_inset
@@ -2736,7 +2841,7 @@ key "key-5"
 \begin_layout Plain Layout
 
 \size footnotesize
-Cooperative public development of the system
+Use a cooperative, public development of the system
 \end_layout
 
 \end_inset
@@ -2747,7 +2852,7 @@ Cooperative public development of the system
 \begin_layout Plain Layout
 
 \size footnotesize
-Web and mobile (phone call)
+Implement a Web interface and mobile clients (using phone calls)
 \end_layout
 
 \end_inset
@@ -2832,7 +2937,8 @@ key "key-10"
 \begin_layout Plain Layout
 
 \size footnotesize
-Employers should incentive employers Regional Transportation Boards
+Make employers incentive employees.
+ Involve Regional Transportation Boards
 \end_layout
 
 \end_inset
@@ -2871,8 +2977,9 @@ key "key-0"
 \begin_layout Plain Layout
 
 \size footnotesize
-Incremental service, starting from a thread of backwards compatible services
- (bus, taxi) Service should not introduce new devices for its use
+Create an incremental service, starting from a thread of backwards compatible
+ services (bus, taxi).
+ Don't introduce new devices for the service, use mobile phones
 \end_layout
 
 \end_inset
@@ -2883,7 +2990,8 @@ Incremental service, starting from a thread of backwards compatible services
 \begin_layout Plain Layout
 
 \size footnotesize
-Find a way to make the service a business case Public incentives
+Find a way to make the service a business case.
+ Search for public incentives
 \end_layout
 
 \end_inset
@@ -2894,7 +3002,15 @@ Find a way to make the service a business case Public incentives
 \begin_layout Plain Layout
 
 \size footnotesize
-Mobile only GPS non-obtrusive system for authentication QOS measure needed
+Implement the system mobile only.
+ Record GPS data.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Provide a non-obtrusive system for authentication Research on quality of
+ service measures
 \end_layout
 
 \end_inset
@@ -2924,8 +3040,8 @@ key "key-11"
 \begin_layout Plain Layout
 
 \size footnotesize
-Multi-hop system brings higher PQOS.
- Set of potential riders and drivers increases
+A multi-hop system will solve the problem, as more rides will be available,
+ waiting times will decrease and quality will rise.
 \end_layout
 
 \end_inset
@@ -2936,7 +3052,7 @@ Multi-hop system brings higher PQOS.
 \begin_layout Plain Layout
 
 \size footnotesize
-Governments should be convinced and change laws to enforce carpooling
+Convice governments to change laws to enforce carpooling
 \end_layout
 
 \end_inset
@@ -2947,8 +3063,8 @@ Governments should be convinced and change laws to enforce carpooling
 \begin_layout Plain Layout
 
 \size footnotesize
-Dynamic, multi-hop, real- time mobile system Minimize waiting times, one
- hop at a time
+Use a dynamic, multi-hop, real- time mobile system to minimize waiting times,
+ one hop at a time
 \end_layout
 
 \end_inset
@@ -2996,14 +3112,14 @@ key "key-12"
 \begin_layout Plain Layout
 
 \size footnotesize
-Use of mobile phones and sms.
- Use of GPS.
+Use mobile phones and sms.
+ Use GPS.
 \end_layout
 
 \begin_layout Plain Layout
 
 \size footnotesize
-High-level description
+Use a provided high-level description of the system
 \end_layout
 
 \end_inset
@@ -3033,8 +3149,8 @@ key "key-13"
 \begin_layout Plain Layout
 
 \size footnotesize
-Users should be involved in some parts of development process Asks for extra
- research
+Involve users in some parts of development process.
+ Research further on this topic.
 \end_layout
 
 \end_inset
@@ -3054,9 +3170,20 @@ Users should be involved in some parts of development process Asks for extra
 \begin_layout Plain Layout
 
 \size footnotesize
-Mobile + web system that interacts with social networks profiles Use of
- Opensocial + other social network APIs High level description of the whole
- system
+Implement a mobile and a web system that interacts with social networks
+ profiles.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Use Opensocial and other social networks.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Use our high level description of the whole system
 \end_layout
 
 \end_inset
@@ -3086,9 +3213,25 @@ key "key-14"
 \begin_layout Plain Layout
 
 \size footnotesize
-Market-formation problem: someone must discover a new, winning formula Start
- with an existing service, like taxis Find large employers Serve events
- (ie.
+Market-formation problem: discover a new, winning formula.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Start with an existing service, like taxis.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Find large employers.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Serve events (ie.
  concerts)
 \end_layout
 
@@ -3100,7 +3243,8 @@ Market-formation problem: someone must discover a new, winning formula Start
 \begin_layout Plain Layout
 
 \size footnotesize
-Money? Incentives from governments
+Find money.
+ Search for incentives from governments
 \end_layout
 
 \end_inset
@@ -3111,8 +3255,14 @@ Money? Incentives from governments
 \begin_layout Plain Layout
 
 \size footnotesize
-Very high-level Lots of Use Cases Detailed functional requirements Detailed
- non-functional requirements
+Implement our Use Cases
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Provide our functional requirements.
+ Provide our non-functional requirements
 \end_layout
 
 \end_inset
@@ -3142,11 +3292,27 @@ key "key-15"
 \begin_layout Plain Layout
 
 \size footnotesize
-Main problem is to convince the user to use the system for the first time:
- marketing money is probably spent more efficiently by paying the user directly
- for the first X times Integration of public transport possibilities Implement
- the system first for an existing taxi network, and then private cars could
- participate.
+Convince the user to use the system for the first time.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Pay the user directly for the first N times of use.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Integrate public transportation system.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Implement the system first for an existing taxi network, and then private
+ cars could participate.
 \end_layout
 
 \end_inset
@@ -3157,10 +3323,10 @@ Main problem is to convince the user to use the system for the first time:
 \begin_layout Plain Layout
 
 \size footnotesize
-Provide a free taxi of public transport ride in case of no return possibility
- (only for the first months) Include existing carsharing projects in the
- system startup Create an own currency system to be converted in real money
- Governments should adapt the laws for dynamic ride sharing
+Provide a free taxi of public transport ride in case of no return possibility.
+ Include existing carsharing projects in the system startup.
+ Create an own currency system to be converted in real money.
+ Convince governments to adapt the laws for dynamic carpooling
 \end_layout
 
 \end_inset
@@ -3171,7 +3337,7 @@ Provide a free taxi of public transport ride in case of no return possibility
 \begin_layout Plain Layout
 
 \size footnotesize
-Mobile, GPS Multi-hop system
+Implement a mobile, GPS, Multi-hop system
 \end_layout
 
 \end_inset
@@ -4735,6 +4901,18 @@ key "key-15"
 
  Current Trends in Dynamic Ridesharing, identification of Bottleneck Problems
  and Propositions of Solutions
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "bibtex/bibliography"
+options "bibtotoc,acm"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
