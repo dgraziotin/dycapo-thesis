@@ -727,7 +727,7 @@ Currently there are no dynamic carpooling systems widely used.
  block.
  In fact we decide to focus on the creation of a solid, open and collaborative
  base framework for dynamic carpooling.
- The design and implementation of a open protocol and an open-source server
+ The design and implementation of an open protocol and an open-source server
  are presented in Part III.
  
 \begin_inset Newpage pagebreak
